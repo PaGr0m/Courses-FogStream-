@@ -8,8 +8,12 @@
 try :
     fin = open("input.txt", "r")
 except FileNotFoundError:
-    fin.cre
-fout = open("output.txt", "w")
+    print("Not find file")
+
+try:
+    fout = open("output.txt", "w")
+except FileNotFoundError:
+    print("Not find file")
 
 myDict = dict()
 line = fin.readline()
@@ -25,3 +29,9 @@ for element in myDict:
 
 fin.close()
 fout.close()
+
+# try:
+#     with open("input.txt", "r") as fin:
+#         fin.write("Hello")
+#         except FileNotFoundError:
+#
