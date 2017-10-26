@@ -10,20 +10,28 @@ Pavel Gromov
 """
 
 import os
+import re
 
-def checkDir(path, count):
+def countDir(path):
+    return len(re.findall(r'/', path))
+
+def checkDir(path):
+
     for element in os.listdir(path):
-        if (os.path.isfile(path + "/" + element)):
-            print("-" * count, element)
-        if (os.path.isdir(path + "/" + element)):
-            print("-" * count, element)
-            count += 5
-            checkDir(path + "/" + element, count)
+        tmpPath = path + "/" + element
+
+        if (os.path.isfile(tmpPath)):
+            print("-" * countDir(tmpPath), element)
+
+        if (os.path.isdir(tmpPath)):
+            print("-" * countDir(tmpPath), element)
+            checkDir(tmpPath)
 
 path = input("Enter the path: ")
-count = 5
+
 try:
-    checkDir(path, count)
+    print(path, ":")
+    checkDir(path)
 except FileNotFoundError:
     print("Файл или директория не существуют")
 except NotADirectoryError:
