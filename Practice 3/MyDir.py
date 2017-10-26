@@ -5,10 +5,9 @@
 
 Pavel Gromov
 """
+
 import os
 
 path = input("Enter the path: ")
-
 myDir = os.listdir(path)
-
 print(myDir)

@@ -2,36 +2,26 @@
 В файле содержится текстовая строка.
 Определить частоту повторяемости каждой буквы в тексте и вывести ее.
 
-
 """
 
-try :
-    fin = open("input.txt", "r")
-except FileNotFoundError:
-    print("Not find file")
-
-try:
-    fout = open("output.txt", "w")
-except FileNotFoundError:
-    print("Not find file")
+import re
 
 myDict = dict()
-line = fin.readline()
 
-for symbol in line:
-    if not symbol in myDict:
-        myDict[symbol] = 1
-    elif symbol in myDict:
-        myDict[symbol] += 1
+try:
+    fin = open("input.txt", "r")
+except FileNotFoundError:
+    print("File not fount.")
 
-for element in myDict:
-    fout.write(str(element) + " = " + str(myDict[element]) + "\n")
+# for line in fin.readlines():
+for symbol in fin.readline():
+    if re.match(r'[A-Za-zА-Яа-я]', symbol):
+        if symbol in myDict:
+            myDict[symbol] += 1
+        elif not symbol in myDict:
+            myDict[symbol] = 1
 
-fin.close()
-fout.close()
-
-# try:
-#     with open("input.txt", "r") as fin:
-#         fin.write("Hello")
-#         except FileNotFoundError:
-#
+with open("output.txt", "w") as fout:
+    for element in myDict:
+        # fout.write(str(element) + " = " + str(myDict[element]))
+        fout.write("{} = {}\n".format(element, myDict[element]))
