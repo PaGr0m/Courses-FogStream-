@@ -11,7 +11,7 @@ myDict = dict()
 try:
     fin = open("input.txt", "r")
 except FileNotFoundError:
-    print("File not fount.")
+    print("File not found.")
 
 # for line in fin.readlines():
 for symbol in fin.readline():
