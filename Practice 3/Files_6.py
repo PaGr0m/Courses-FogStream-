@@ -25,5 +25,5 @@ for symbol in fin.readline():
 with open("output.txt", "w") as fout:
     for element in myDict:
         fout.write("{} = {}\n".format(element, myDict[element]))
-        
+
 fin.close()
