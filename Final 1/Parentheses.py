@@ -6,6 +6,24 @@
 Pavel Gromov
 """
 
+def checkInput(text):
+    """
+    Проверка ввода
+    :param text: строка из файла
+    :return: True/False
+    """
+
+    checkList = "0123456789(){}[]+-*/"
+
+    if text:
+        for symbol in text:
+            if not symbol in checkList:
+                return False
+        return True
+    else:
+        return False
+
+
 def isBalanced(text):
     """
     Проверка на сбалансированность
@@ -16,12 +34,13 @@ def isBalanced(text):
     open_parenthesis = "([{"
     close_parenthesis = ")]}"
     stack = []
+    last_index = -1
 
     for symbol in text:
         if symbol in open_parenthesis:
             stack.append(open_parenthesis.index(symbol))
         elif symbol in close_parenthesis:
-            if stack and stack[-1] == close_parenthesis.index(symbol):
+            if stack and stack[last_index] == close_parenthesis.index(symbol):
                 stack.pop()
             else:
                 return False
@@ -36,6 +55,7 @@ def transformationExpression(line):
     """
 
     expression = str()
+
     for symbol in line:
         if symbol == "{" or symbol == "[":
             expression += "("
@@ -56,20 +76,23 @@ def main():
     line = fin.readline()
     fin.close()
 
-    if line and isBalanced(line):
+    if checkInput(line) and isBalanced(line):
         try:
             result = eval(transformationExpression(line))
         except ZeroDivisionError:
-            print("Division by zero")
+            print("Error: Division by zero")
             exit()
         except TypeError:
-            print("Error")
+            print("Error: Object is not callable")
+            exit()
+        except SyntaxError:
+            print("Error: Syntax")
             exit()
 
         with open("output.txt", "w") as fout:
             fout.write(str(result))
     else:
-        print("Error")
+        print("Expression is not balanced or Error input")
 
 if __name__ == "__main__":
     main()
