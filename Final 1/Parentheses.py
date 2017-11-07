@@ -6,14 +6,15 @@
 Pavel Gromov
 """
 
+
 def checkInput(text):
     """
-    Проверка ввода
+    Проверка правильного ввода в файле
     :param text: строка из файла
     :return: True/False
     """
 
-    checkList = "0123456789(){}[]+-*/"
+    checkList = "0123456789(){}[]+-*/."
 
     if text:
         for symbol in text:
@@ -28,7 +29,7 @@ def isBalanced(text):
     """
     Проверка на сбалансированность
     :param text: строка из файла
-    :return: true/false
+    :return: True/False
     """
 
     open_parenthesis = "([{"
@@ -40,6 +41,8 @@ def isBalanced(text):
         if symbol in open_parenthesis:
             stack.append(open_parenthesis.index(symbol))
         elif symbol in close_parenthesis:
+            # если стэк не пустой и последний элемент стэка совпадает по типу с закрывающей скобкой,
+            # то из стэка выбрасывается последний элемент (открывающая скобка)
             if stack and stack[last_index] == close_parenthesis.index(symbol):
                 stack.pop()
             else:
@@ -51,7 +54,7 @@ def transformationExpression(line):
     """
     Преобразование всех скобок на круглые
     :param line: строка из фала
-    :return: преобразованная строка
+    :return: (str) преобразованная строка
     """
 
     expression = str()
