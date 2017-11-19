@@ -13,7 +13,7 @@ class Polynom():
     def __init__(self, coeffs):
         self.coeffs = coeffs
         self.DEGREE_MAX = len(coeffs) - 1
-        self.index1 = -1
+        self.index = -1
 
     def __len__(self):
         count = 0
@@ -24,21 +24,20 @@ class Polynom():
         return count
 
     def __iter__(self):
-        return iter(self.coeffs)
-        # return self
+        return self
 
     def __next__(self):
         try:
-            result = self.coeffs[self.index1]
+            result = self.coeffs[self.index]
         except IndexError:
             raise StopIteration
 
-        self.index1 -= 1
+        self.index += 1
 
         return result
 
-    def __repr__(self):
-        return self.coeffs
+    # def __repr__(self):
+    #     return self.coeffs
 
     def __str__(self):
         expression = str()
@@ -90,17 +89,90 @@ class Polynom():
         return Polynom(result[::-1])
 
     def __truediv__(self, other):
-        other = self.check_length(other)
+        first, second = self.check_length(other)
+        first, second = first[::-1], second[::-1]
 
-        for idx, _ in enumerate(other):
-            last_idx = -(idx+1)
-            try:
-                self.coeffs[last_idx] /= other[last_idx]
-            except ZeroDivisionError:
-                print("Деление на 0")
-                exit()
+        try:
+            DIVIDE_COEFF = second[0]
+        except IndexError:
+            print("Один из многочленов пустой")
+            DIVIDE_COEFF = 0
 
-        return Polynom(self.coeffs)
+        FIRST_INDEX = 0
+        shift = 0
+        result = []
+
+        for _ in first:
+            if DIVIDE_COEFF != 0: tmp = first[FIRST_INDEX] / DIVIDE_COEFF
+            else: tmp = 0
+
+            if (tmp != 0): result.append(tmp)
+            else: break
+
+            for second_index, second_val in enumerate(second):
+                first[second_index] -= tmp * second_val
+            first.pop(0)
+
+            shift += 1
+
+        return Polynom(result)
+
+    def __mod__(self, other):
+        first, second = self.check_length(other)
+        first, second = first[::-1], second[::-1]
+
+        try:
+            DIVIDE_COEFF = second[0]
+        except IndexError:
+            print("Один из многочленов пустой")
+            DIVIDE_COEFF = 0
+
+        FIRST_INDEX = 0
+        shift = 0
+        result = []
+
+        for _ in first:
+            if DIVIDE_COEFF != 0: tmp = first[FIRST_INDEX] / DIVIDE_COEFF
+            else: tmp = 0
+
+            if (tmp != 0): result.append(tmp)
+            else: break
+
+            for second_index, second_val in enumerate(second):
+                first[second_index] -= tmp * second_val
+            first.pop(0)
+            shift += 1
+
+        return Polynom(first)
+
+    def __divmod__(self, other):
+        first, second = self.check_length(other)
+        first, second = first[::-1], second[::-1]
+
+        try:
+            DIVIDE_COEFF = second[0]
+        except IndexError:
+            print("Один из многочленов пустой")
+            DIVIDE_COEFF = 0
+
+        FIRST_INDEX = 0
+        shift = 0
+        result = []
+
+        for _ in first:
+            if DIVIDE_COEFF != 0: tmp = first[FIRST_INDEX] / DIVIDE_COEFF
+            else: tmp = 0
+
+            if (tmp != 0): result.append(tmp)
+            else: break
+
+            for second_index, second_val in enumerate(second):
+                first[second_index] -= tmp * second_val
+            first.pop(0)
+
+            shift += 1
+
+        return Polynom(result), Polynom(first)
 
     def __getitem__(self, index):
         return self.coeffs[index]
@@ -109,18 +181,25 @@ class Polynom():
         self.coeffs[index] = value
 
     def check_length(self, other):
-        if len(self.coeffs) < len(other.coeffs):
+        """
+        Функция проверяет длины коэф. полиномов.
+        :param other: второй полином
+        :return: значения полиномов меняются местами (иначе остаются на месте)
+                и передаются в обратном порядке для вычислений
+        """
+
+        if len(self.coeffs) < len(other):
             return other[::-1], self.coeffs[::-1]
         else:
             return self.coeffs[::-1], other[::-1]
 
 
 def main():
-    # a = [1, 2, 3]
-    # b = [4, 5]
+    a = [1, 2, 3]
+    b = [4, 5]
 
-    a = [4, 5]
-    b = [1, 2, 3]
+    # a = [4, 5]
+    # b = [1, 2, 3]
 
     poly1 = Polynom(a)
     poly2 = Polynom(b)
@@ -128,14 +207,29 @@ def main():
     print("Polynom 1 = ", poly1)
     print("Polynom 2 = ", poly2)
 
+    # сложение полиномов
     sum = poly1 + poly2
-    print("\nSumma: ", sum)
+    print("\nSum: ", sum)
 
+    # разность полиномов
     substract = poly1 - poly2
     print("\nSubstract: ", substract)
 
+    # произведение полиномов
     multiply = poly1 * poly2
     print("\nMultiply: ", multiply)
+
+    # целочисленное деление
+    div = poly1 / poly2
+    print("\nDiv: ", div)
+
+    # остаток от деления
+    remainder = poly1 % poly2
+    print("\nRemainder: ", remainder)
+
+    # целая часть от деления и остаток "divmod()"
+    divmodPoly = divmod(poly1, poly2)
+    print("\nDivmod:\n    Whole: {}\n    Remainder: {}".format(divmodPoly[0], divmodPoly[1]))
 
 
 if __name__ == "__main__":
