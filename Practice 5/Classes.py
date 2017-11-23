@@ -8,12 +8,18 @@ Pavel Gromov
 """
 
 
+import re
+
 class Polynom():
 
     def __init__(self, coeffs):
+        # if self.check_polynom(coeffs):
         self.coeffs = coeffs
         self.DEGREE_MAX = len(coeffs) - 1
         self.index = -1
+        # else:
+        #     print("Error")
+        #     exit()
 
     def __len__(self):
         count = 0
@@ -36,18 +42,19 @@ class Polynom():
 
         return result
 
-    # def __repr__(self):
-    #     return self.coeffs
+    def __repr__(self):
+        return self.coeffs
 
     def __str__(self):
         expression = str()
         degree = self.DEGREE_MAX
 
         for element in self.coeffs:
-            if element >= 0: mark = "+"
-            else: mark = ""
+            if element != 0:
+                if element >= 0: mark = "+"
+                else: mark = ""
 
-            expression += "{} {}*x^{} ".format(mark, str(element), degree)
+                expression += "{} {}*x^{} ".format(mark, str(element), degree)
             degree -= 1
 
         return expression
@@ -193,11 +200,18 @@ class Polynom():
         else:
             return self.coeffs[::-1], other[::-1]
 
+    # def check_polynom(self, coeffs):
+    #     for el in coeffs:
+    #         print(el)
+    #         if re.search(r'[^0-9.]', el):
+    #             return False
+    #     return True
 
 def main():
     a = [1, 2, 3]
     b = [4, 5]
-
+    # a = ["a"]
+    # b = ["b"]
     # a = [4, 5]
     # b = [1, 2, 3]
 
