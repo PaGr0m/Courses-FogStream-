@@ -29,7 +29,11 @@ def get_json_object(url):
     """
 
     http = urllib3.PoolManager()
-    response = http.request("GET", url)
+    try:
+        response = http.request("GET", url)
+    except urllib3.exceptions.RequestError:
+        print("Oops!")
+        exit()
     json_obj = json.loads(bytes.decode(response.data))
 
     return json_obj
@@ -134,6 +138,7 @@ def get_pokemons(url):
                                                  json_pokemon["height"],
                                                  json_pokemon["order"],
                                                  json_pokemon["base_experience"]))
+
 
 def output_menu():
     print("Menu:\n"

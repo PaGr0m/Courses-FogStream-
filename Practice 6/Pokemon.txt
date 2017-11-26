@@ -1,0 +1,5563 @@
+Pokemon:
+1. bulbasaur
+    Weight: 69
+    Height: 7
+    Order: 1
+    Base experience: 64
+
+2. ivysaur
+    Weight: 130
+    Height: 10
+    Order: 2
+    Base experience: 142
+
+3. venusaur
+    Weight: 1000
+    Height: 20
+    Order: 3
+    Base experience: 236
+
+4. charmander
+    Weight: 85
+    Height: 6
+    Order: 5
+    Base experience: 62
+
+5. charmeleon
+    Weight: 190
+    Height: 11
+    Order: 6
+    Base experience: 142
+
+6. charizard
+    Weight: 905
+    Height: 17
+    Order: 7
+    Base experience: 240
+
+7. squirtle
+    Weight: 90
+    Height: 5
+    Order: 10
+    Base experience: 63
+
+8. wartortle
+    Weight: 225
+    Height: 10
+    Order: 11
+    Base experience: 142
+
+9. blastoise
+    Weight: 855
+    Height: 16
+    Order: 12
+    Base experience: 239
+
+10. caterpie
+    Weight: 29
+    Height: 3
+    Order: 14
+    Base experience: 39
+
+11. metapod
+    Weight: 99
+    Height: 7
+    Order: 15
+    Base experience: 72
+
+12. butterfree
+    Weight: 320
+    Height: 11
+    Order: 16
+    Base experience: 178
+
+13. weedle
+    Weight: 32
+    Height: 3
+    Order: 17
+    Base experience: 39
+
+14. kakuna
+    Weight: 100
+    Height: 6
+    Order: 18
+    Base experience: 72
+
+15. beedrill
+    Weight: 295
+    Height: 10
+    Order: 19
+    Base experience: 178
+
+16. pidgey
+    Weight: 18
+    Height: 3
+    Order: 21
+    Base experience: 50
+
+17. pidgeotto
+    Weight: 300
+    Height: 11
+    Order: 22
+    Base experience: 122
+
+18. pidgeot
+    Weight: 395
+    Height: 15
+    Order: 23
+    Base experience: 216
+
+19. rattata
+    Weight: 35
+    Height: 3
+    Order: 25
+    Base experience: 51
+
+20. raticate
+    Weight: 185
+    Height: 7
+    Order: 27
+    Base experience: 145
+
+21. spearow
+    Weight: 20
+    Height: 3
+    Order: 30
+    Base experience: 52
+
+22. fearow
+    Weight: 380
+    Height: 12
+    Order: 31
+    Base experience: 155
+
+23. ekans
+    Weight: 69
+    Height: 20
+    Order: 32
+    Base experience: 58
+
+24. arbok
+    Weight: 650
+    Height: 35
+    Order: 33
+    Base experience: 157
+
+25. pikachu
+    Weight: 60
+    Height: 4
+    Order: 35
+    Base experience: 112
+
+26. raichu
+    Weight: 300
+    Height: 8
+    Order: 42
+    Base experience: 218
+
+27. sandshrew
+    Weight: 120
+    Height: 6
+    Order: 44
+    Base experience: 60
+
+28. sandslash
+    Weight: 295
+    Height: 10
+    Order: 46
+    Base experience: 158
+
+29. nidoran-f
+    Weight: 70
+    Height: 4
+    Order: 48
+    Base experience: 55
+
+30. nidorina
+    Weight: 200
+    Height: 8
+    Order: 49
+    Base experience: 128
+
+31. nidoqueen
+    Weight: 600
+    Height: 13
+    Order: 50
+    Base experience: 227
+
+32. nidoran-m
+    Weight: 90
+    Height: 5
+    Order: 51
+    Base experience: 55
+
+33. nidorino
+    Weight: 195
+    Height: 9
+    Order: 52
+    Base experience: 128
+
+34. nidoking
+    Weight: 620
+    Height: 14
+    Order: 53
+    Base experience: 227
+
+35. clefairy
+    Weight: 75
+    Height: 6
+    Order: 55
+    Base experience: 113
+
+36. clefable
+    Weight: 400
+    Height: 13
+    Order: 56
+    Base experience: 217
+
+37. vulpix
+    Weight: 99
+    Height: 6
+    Order: 57
+    Base experience: 60
+
+38. ninetales
+    Weight: 199
+    Height: 11
+    Order: 59
+    Base experience: 177
+
+39. jigglypuff
+    Weight: 55
+    Height: 5
+    Order: 62
+    Base experience: 95
+
+40. wigglytuff
+    Weight: 120
+    Height: 10
+    Order: 63
+    Base experience: 196
+
+41. zubat
+    Weight: 75
+    Height: 8
+    Order: 64
+    Base experience: 49
+
+42. golbat
+    Weight: 550
+    Height: 16
+    Order: 65
+    Base experience: 159
+
+43. oddish
+    Weight: 54
+    Height: 5
+    Order: 67
+    Base experience: 64
+
+44. gloom
+    Weight: 86
+    Height: 8
+    Order: 68
+    Base experience: 138
+
+45. vileplume
+    Weight: 186
+    Height: 12
+    Order: 69
+    Base experience: 221
+
+46. paras
+    Weight: 54
+    Height: 3
+    Order: 71
+    Base experience: 57
+
+47. parasect
+    Weight: 295
+    Height: 10
+    Order: 72
+    Base experience: 142
+
+48. venonat
+    Weight: 300
+    Height: 10
+    Order: 73
+    Base experience: 61
+
+49. venomoth
+    Weight: 125
+    Height: 15
+    Order: 74
+    Base experience: 158
+
+50. diglett
+    Weight: 8
+    Height: 2
+    Order: 75
+    Base experience: 53
+
+51. dugtrio
+    Weight: 333
+    Height: 7
+    Order: 77
+    Base experience: 149
+
+52. meowth
+    Weight: 42
+    Height: 4
+    Order: 79
+    Base experience: 58
+
+53. persian
+    Weight: 320
+    Height: 10
+    Order: 81
+    Base experience: 154
+
+54. psyduck
+    Weight: 196
+    Height: 8
+    Order: 83
+    Base experience: 64
+
+55. golduck
+    Weight: 766
+    Height: 17
+    Order: 84
+    Base experience: 175
+
+56. mankey
+    Weight: 280
+    Height: 5
+    Order: 85
+    Base experience: 61
+
+57. primeape
+    Weight: 320
+    Height: 10
+    Order: 86
+    Base experience: 159
+
+58. growlithe
+    Weight: 190
+    Height: 7
+    Order: 87
+    Base experience: 70
+
+59. arcanine
+    Weight: 1550
+    Height: 19
+    Order: 88
+    Base experience: 194
+
+60. poliwag
+    Weight: 124
+    Height: 6
+    Order: 89
+    Base experience: 60
+
+61. poliwhirl
+    Weight: 200
+    Height: 10
+    Order: 90
+    Base experience: 135
+
+62. poliwrath
+    Weight: 540
+    Height: 13
+    Order: 91
+    Base experience: 230
+
+63. abra
+    Weight: 195
+    Height: 9
+    Order: 93
+    Base experience: 62
+
+64. kadabra
+    Weight: 565
+    Height: 13
+    Order: 94
+    Base experience: 140
+
+65. alakazam
+    Weight: 480
+    Height: 15
+    Order: 95
+    Base experience: 225
+
+66. machop
+    Weight: 195
+    Height: 8
+    Order: 97
+    Base experience: 61
+
+67. machoke
+    Weight: 705
+    Height: 15
+    Order: 98
+    Base experience: 142
+
+68. machamp
+    Weight: 1300
+    Height: 16
+    Order: 99
+    Base experience: 227
+
+69. bellsprout
+    Weight: 40
+    Height: 7
+    Order: 100
+    Base experience: 60
+
+70. weepinbell
+    Weight: 64
+    Height: 10
+    Order: 101
+    Base experience: 137
+
+71. victreebel
+    Weight: 155
+    Height: 17
+    Order: 102
+    Base experience: 221
+
+72. tentacool
+    Weight: 455
+    Height: 9
+    Order: 103
+    Base experience: 67
+
+73. tentacruel
+    Weight: 550
+    Height: 16
+    Order: 104
+    Base experience: 180
+
+74. geodude
+    Weight: 200
+    Height: 4
+    Order: 105
+    Base experience: 60
+
+75. graveler
+    Weight: 1050
+    Height: 10
+    Order: 107
+    Base experience: 137
+
+76. golem
+    Weight: 3000
+    Height: 14
+    Order: 109
+    Base experience: 223
+
+77. ponyta
+    Weight: 300
+    Height: 10
+    Order: 111
+    Base experience: 82
+
+78. rapidash
+    Weight: 950
+    Height: 17
+    Order: 112
+    Base experience: 175
+
+79. slowpoke
+    Weight: 360
+    Height: 12
+    Order: 113
+    Base experience: 63
+
+80. slowbro
+    Weight: 785
+    Height: 16
+    Order: 114
+    Base experience: 172
+
+81. magnemite
+    Weight: 60
+    Height: 3
+    Order: 117
+    Base experience: 65
+
+82. magneton
+    Weight: 600
+    Height: 10
+    Order: 118
+    Base experience: 163
+
+83. farfetchd
+    Weight: 150
+    Height: 8
+    Order: 120
+    Base experience: 132
+
+84. doduo
+    Weight: 392
+    Height: 14
+    Order: 121
+    Base experience: 62
+
+85. dodrio
+    Weight: 852
+    Height: 18
+    Order: 122
+    Base experience: 165
+
+86. seel
+    Weight: 900
+    Height: 11
+    Order: 123
+    Base experience: 65
+
+87. dewgong
+    Weight: 1200
+    Height: 17
+    Order: 124
+    Base experience: 166
+
+88. grimer
+    Weight: 300
+    Height: 9
+    Order: 125
+    Base experience: 65
+
+89. muk
+    Weight: 300
+    Height: 12
+    Order: 127
+    Base experience: 175
+
+90. shellder
+    Weight: 40
+    Height: 3
+    Order: 129
+    Base experience: 61
+
+91. cloyster
+    Weight: 1325
+    Height: 15
+    Order: 130
+    Base experience: 184
+
+92. gastly
+    Weight: 1
+    Height: 13
+    Order: 131
+    Base experience: 62
+
+93. haunter
+    Weight: 1
+    Height: 16
+    Order: 132
+    Base experience: 142
+
+94. gengar
+    Weight: 405
+    Height: 15
+    Order: 133
+    Base experience: 225
+
+95. onix
+    Weight: 2100
+    Height: 88
+    Order: 135
+    Base experience: 77
+
+96. drowzee
+    Weight: 324
+    Height: 10
+    Order: 138
+    Base experience: 66
+
+97. hypno
+    Weight: 756
+    Height: 16
+    Order: 139
+    Base experience: 169
+
+98. krabby
+    Weight: 65
+    Height: 4
+    Order: 140
+    Base experience: 65
+
+99. kingler
+    Weight: 600
+    Height: 13
+    Order: 141
+    Base experience: 166
+
+100. voltorb
+    Weight: 104
+    Height: 5
+    Order: 142
+    Base experience: 66
+
+101. electrode
+    Weight: 666
+    Height: 12
+    Order: 143
+    Base experience: 172
+
+102. exeggcute
+    Weight: 25
+    Height: 4
+    Order: 144
+    Base experience: 65
+
+103. exeggutor
+    Weight: 1200
+    Height: 20
+    Order: 145
+    Base experience: 186
+
+104. cubone
+    Weight: 65
+    Height: 4
+    Order: 147
+    Base experience: 64
+
+105. marowak
+    Weight: 450
+    Height: 10
+    Order: 148
+    Base experience: 149
+
+106. hitmonlee
+    Weight: 498
+    Height: 15
+    Order: 151
+    Base experience: 159
+
+107. hitmonchan
+    Weight: 502
+    Height: 14
+    Order: 152
+    Base experience: 159
+
+108. lickitung
+    Weight: 655
+    Height: 12
+    Order: 154
+    Base experience: 77
+
+109. koffing
+    Weight: 10
+    Height: 6
+    Order: 156
+    Base experience: 68
+
+110. weezing
+    Weight: 95
+    Height: 12
+    Order: 157
+    Base experience: 172
+
+111. rhyhorn
+    Weight: 1150
+    Height: 10
+    Order: 158
+    Base experience: 69
+
+112. rhydon
+    Weight: 1200
+    Height: 19
+    Order: 159
+    Base experience: 170
+
+113. chansey
+    Weight: 346
+    Height: 11
+    Order: 162
+    Base experience: 395
+
+114. tangela
+    Weight: 350
+    Height: 10
+    Order: 164
+    Base experience: 87
+
+115. kangaskhan
+    Weight: 800
+    Height: 22
+    Order: 166
+    Base experience: 172
+
+116. horsea
+    Weight: 80
+    Height: 4
+    Order: 168
+    Base experience: 59
+
+117. seadra
+    Weight: 250
+    Height: 12
+    Order: 169
+    Base experience: 154
+
+118. goldeen
+    Weight: 150
+    Height: 6
+    Order: 171
+    Base experience: 64
+
+119. seaking
+    Weight: 390
+    Height: 13
+    Order: 172
+    Base experience: 158
+
+120. staryu
+    Weight: 345
+    Height: 8
+    Order: 173
+    Base experience: 68
+
+121. starmie
+    Weight: 800
+    Height: 11
+    Order: 174
+    Base experience: 182
+
+122. mr-mime
+    Weight: 545
+    Height: 13
+    Order: 176
+    Base experience: 161
+
+123. scyther
+    Weight: 560
+    Height: 15
+    Order: 177
+    Base experience: 100
+
+124. jynx
+    Weight: 406
+    Height: 14
+    Order: 181
+    Base experience: 159
+
+125. electabuzz
+    Weight: 300
+    Height: 11
+    Order: 183
+    Base experience: 172
+
+126. magmar
+    Weight: 445
+    Height: 13
+    Order: 186
+    Base experience: 173
+
+127. pinsir
+    Weight: 550
+    Height: 15
+    Order: 188
+    Base experience: 175
+
+128. tauros
+    Weight: 884
+    Height: 14
+    Order: 190
+    Base experience: 172
+
+129. magikarp
+    Weight: 100
+    Height: 9
+    Order: 191
+    Base experience: 40
+
+130. gyarados
+    Weight: 2350
+    Height: 65
+    Order: 192
+    Base experience: 189
+
+131. lapras
+    Weight: 2200
+    Height: 25
+    Order: 194
+    Base experience: 187
+
+132. ditto
+    Weight: 40
+    Height: 3
+    Order: 195
+    Base experience: 101
+
+133. eevee
+    Weight: 65
+    Height: 3
+    Order: 196
+    Base experience: 65
+
+134. vaporeon
+    Weight: 290
+    Height: 10
+    Order: 197
+    Base experience: 184
+
+135. jolteon
+    Weight: 245
+    Height: 8
+    Order: 198
+    Base experience: 184
+
+136. flareon
+    Weight: 250
+    Height: 9
+    Order: 199
+    Base experience: 184
+
+137. porygon
+    Weight: 365
+    Height: 8
+    Order: 205
+    Base experience: 79
+
+138. omanyte
+    Weight: 75
+    Height: 4
+    Order: 208
+    Base experience: 71
+
+139. omastar
+    Weight: 350
+    Height: 10
+    Order: 209
+    Base experience: 173
+
+140. kabuto
+    Weight: 115
+    Height: 5
+    Order: 210
+    Base experience: 71
+
+141. kabutops
+    Weight: 405
+    Height: 13
+    Order: 211
+    Base experience: 173
+
+142. aerodactyl
+    Weight: 590
+    Height: 18
+    Order: 212
+    Base experience: 180
+
+143. snorlax
+    Weight: 4600
+    Height: 21
+    Order: 215
+    Base experience: 189
+
+144. articuno
+    Weight: 554
+    Height: 17
+    Order: 216
+    Base experience: 261
+
+145. zapdos
+    Weight: 526
+    Height: 16
+    Order: 217
+    Base experience: 261
+
+146. moltres
+    Weight: 600
+    Height: 20
+    Order: 218
+    Base experience: 261
+
+147. dratini
+    Weight: 33
+    Height: 18
+    Order: 219
+    Base experience: 60
+
+148. dragonair
+    Weight: 165
+    Height: 40
+    Order: 220
+    Base experience: 147
+
+149. dragonite
+    Weight: 2100
+    Height: 22
+    Order: 221
+    Base experience: 270
+
+150. mewtwo
+    Weight: 1220
+    Height: 20
+    Order: 222
+    Base experience: 306
+
+151. mew
+    Weight: 40
+    Height: 4
+    Order: 225
+    Base experience: 270
+
+152. chikorita
+    Weight: 64
+    Height: 9
+    Order: 226
+    Base experience: 64
+
+153. bayleef
+    Weight: 158
+    Height: 12
+    Order: 227
+    Base experience: 142
+
+154. meganium
+    Weight: 1005
+    Height: 18
+    Order: 228
+    Base experience: 236
+
+155. cyndaquil
+    Weight: 79
+    Height: 5
+    Order: 229
+    Base experience: 62
+
+156. quilava
+    Weight: 190
+    Height: 9
+    Order: 230
+    Base experience: 142
+
+157. typhlosion
+    Weight: 795
+    Height: 17
+    Order: 231
+    Base experience: 240
+
+158. totodile
+    Weight: 95
+    Height: 6
+    Order: 232
+    Base experience: 63
+
+159. croconaw
+    Weight: 250
+    Height: 11
+    Order: 233
+    Base experience: 142
+
+160. feraligatr
+    Weight: 888
+    Height: 23
+    Order: 234
+    Base experience: 239
+
+161. sentret
+    Weight: 60
+    Height: 8
+    Order: 235
+    Base experience: 43
+
+162. furret
+    Weight: 325
+    Height: 18
+    Order: 236
+    Base experience: 145
+
+163. hoothoot
+    Weight: 212
+    Height: 7
+    Order: 237
+    Base experience: 52
+
+164. noctowl
+    Weight: 408
+    Height: 16
+    Order: 238
+    Base experience: 158
+
+165. ledyba
+    Weight: 108
+    Height: 10
+    Order: 239
+    Base experience: 53
+
+166. ledian
+    Weight: 356
+    Height: 14
+    Order: 240
+    Base experience: 137
+
+167. spinarak
+    Weight: 85
+    Height: 5
+    Order: 241
+    Base experience: 50
+
+168. ariados
+    Weight: 335
+    Height: 11
+    Order: 242
+    Base experience: 140
+
+169. crobat
+    Weight: 750
+    Height: 18
+    Order: 66
+    Base experience: 241
+
+170. chinchou
+    Weight: 120
+    Height: 5
+    Order: 243
+    Base experience: 66
+
+171. lanturn
+    Weight: 225
+    Height: 12
+    Order: 244
+    Base experience: 161
+
+172. pichu
+    Weight: 20
+    Height: 3
+    Order: 34
+    Base experience: 41
+
+173. cleffa
+    Weight: 30
+    Height: 3
+    Order: 54
+    Base experience: 44
+
+174. igglybuff
+    Weight: 10
+    Height: 3
+    Order: 61
+    Base experience: 42
+
+175. togepi
+    Weight: 15
+    Height: 3
+    Order: 245
+    Base experience: 49
+
+176. togetic
+    Weight: 32
+    Height: 6
+    Order: 246
+    Base experience: 142
+
+177. natu
+    Weight: 20
+    Height: 2
+    Order: 248
+    Base experience: 64
+
+178. xatu
+    Weight: 150
+    Height: 15
+    Order: 249
+    Base experience: 165
+
+179. mareep
+    Weight: 78
+    Height: 6
+    Order: 250
+    Base experience: 56
+
+180. flaaffy
+    Weight: 133
+    Height: 8
+    Order: 251
+    Base experience: 128
+
+181. ampharos
+    Weight: 615
+    Height: 14
+    Order: 252
+    Base experience: 230
+
+182. bellossom
+    Weight: 58
+    Height: 4
+    Order: 70
+    Base experience: 221
+
+183. marill
+    Weight: 85
+    Height: 4
+    Order: 255
+    Base experience: 88
+
+184. azumarill
+    Weight: 285
+    Height: 8
+    Order: 256
+    Base experience: 189
+
+185. sudowoodo
+    Weight: 380
+    Height: 12
+    Order: 258
+    Base experience: 144
+
+186. politoed
+    Weight: 339
+    Height: 11
+    Order: 92
+    Base experience: 225
+
+187. hoppip
+    Weight: 5
+    Height: 4
+    Order: 259
+    Base experience: 50
+
+188. skiploom
+    Weight: 10
+    Height: 6
+    Order: 260
+    Base experience: 119
+
+189. jumpluff
+    Weight: 30
+    Height: 8
+    Order: 261
+    Base experience: 207
+
+190. aipom
+    Weight: 115
+    Height: 8
+    Order: 262
+    Base experience: 72
+
+191. sunkern
+    Weight: 18
+    Height: 3
+    Order: 264
+    Base experience: 36
+
+192. sunflora
+    Weight: 85
+    Height: 8
+    Order: 265
+    Base experience: 149
+
+193. yanma
+    Weight: 380
+    Height: 12
+    Order: 266
+    Base experience: 78
+
+194. wooper
+    Weight: 85
+    Height: 4
+    Order: 268
+    Base experience: 42
+
+195. quagsire
+    Weight: 750
+    Height: 14
+    Order: 269
+    Base experience: 151
+
+196. espeon
+    Weight: 265
+    Height: 9
+    Order: 200
+    Base experience: 184
+
+197. umbreon
+    Weight: 270
+    Height: 10
+    Order: 201
+    Base experience: 184
+
+198. murkrow
+    Weight: 21
+    Height: 5
+    Order: 270
+    Base experience: 81
+
+199. slowking
+    Weight: 795
+    Height: 20
+    Order: 116
+    Base experience: 172
+
+200. misdreavus
+    Weight: 10
+    Height: 7
+    Order: 272
+    Base experience: 87
+
+201. unown
+    Weight: 50
+    Height: 5
+    Order: 274
+    Base experience: 118
+
+202. wobbuffet
+    Weight: 285
+    Height: 13
+    Order: 276
+    Base experience: 142
+
+203. girafarig
+    Weight: 415
+    Height: 15
+    Order: 277
+    Base experience: 159
+
+204. pineco
+    Weight: 72
+    Height: 6
+    Order: 278
+    Base experience: 58
+
+205. forretress
+    Weight: 1258
+    Height: 12
+    Order: 279
+    Base experience: 163
+
+206. dunsparce
+    Weight: 140
+    Height: 15
+    Order: 280
+    Base experience: 145
+
+207. gligar
+    Weight: 648
+    Height: 11
+    Order: 281
+    Base experience: 86
+
+208. steelix
+    Weight: 4000
+    Height: 92
+    Order: 136
+    Base experience: 179
+
+209. snubbull
+    Weight: 78
+    Height: 6
+    Order: 283
+    Base experience: 60
+
+210. granbull
+    Weight: 487
+    Height: 14
+    Order: 284
+    Base experience: 158
+
+211. qwilfish
+    Weight: 39
+    Height: 5
+    Order: 285
+    Base experience: 88
+
+212. scizor
+    Weight: 1180
+    Height: 18
+    Order: 178
+    Base experience: 175
+
+213. shuckle
+    Weight: 205
+    Height: 6
+    Order: 286
+    Base experience: 177
+
+214. heracross
+    Weight: 540
+    Height: 15
+    Order: 287
+    Base experience: 175
+
+215. sneasel
+    Weight: 280
+    Height: 9
+    Order: 289
+    Base experience: 86
+
+216. teddiursa
+    Weight: 88
+    Height: 6
+    Order: 291
+    Base experience: 66
+
+217. ursaring
+    Weight: 1258
+    Height: 18
+    Order: 292
+    Base experience: 175
+
+218. slugma
+    Weight: 350
+    Height: 7
+    Order: 293
+    Base experience: 50
+
+219. magcargo
+    Weight: 550
+    Height: 8
+    Order: 294
+    Base experience: 151
+
+220. swinub
+    Weight: 65
+    Height: 4
+    Order: 295
+    Base experience: 50
+
+221. piloswine
+    Weight: 558
+    Height: 11
+    Order: 296
+    Base experience: 158
+
+222. corsola
+    Weight: 50
+    Height: 6
+    Order: 298
+    Base experience: 144
+
+223. remoraid
+    Weight: 120
+    Height: 6
+    Order: 299
+    Base experience: 60
+
+224. octillery
+    Weight: 285
+    Height: 9
+    Order: 300
+    Base experience: 168
+
+225. delibird
+    Weight: 160
+    Height: 9
+    Order: 301
+    Base experience: 116
+
+226. mantine
+    Weight: 2200
+    Height: 21
+    Order: 303
+    Base experience: 170
+
+227. skarmory
+    Weight: 505
+    Height: 17
+    Order: 304
+    Base experience: 163
+
+228. houndour
+    Weight: 108
+    Height: 6
+    Order: 305
+    Base experience: 66
+
+229. houndoom
+    Weight: 350
+    Height: 14
+    Order: 306
+    Base experience: 175
+
+230. kingdra
+    Weight: 1520
+    Height: 18
+    Order: 170
+    Base experience: 243
+
+231. phanpy
+    Weight: 335
+    Height: 5
+    Order: 308
+    Base experience: 66
+
+232. donphan
+    Weight: 1200
+    Height: 11
+    Order: 309
+    Base experience: 175
+
+233. porygon2
+    Weight: 325
+    Height: 6
+    Order: 206
+    Base experience: 180
+
+234. stantler
+    Weight: 712
+    Height: 14
+    Order: 310
+    Base experience: 163
+
+235. smeargle
+    Weight: 580
+    Height: 12
+    Order: 311
+    Base experience: 88
+
+236. tyrogue
+    Weight: 210
+    Height: 7
+    Order: 150
+    Base experience: 42
+
+237. hitmontop
+    Weight: 480
+    Height: 14
+    Order: 153
+    Base experience: 159
+
+238. smoochum
+    Weight: 60
+    Height: 4
+    Order: 180
+    Base experience: 61
+
+239. elekid
+    Weight: 235
+    Height: 6
+    Order: 182
+    Base experience: 72
+
+240. magby
+    Weight: 214
+    Height: 7
+    Order: 185
+    Base experience: 73
+
+241. miltank
+    Weight: 755
+    Height: 12
+    Order: 312
+    Base experience: 172
+
+242. blissey
+    Weight: 468
+    Height: 15
+    Order: 163
+    Base experience: 608
+
+243. raikou
+    Weight: 1780
+    Height: 19
+    Order: 313
+    Base experience: 261
+
+244. entei
+    Weight: 1980
+    Height: 21
+    Order: 314
+    Base experience: 261
+
+245. suicune
+    Weight: 1870
+    Height: 20
+    Order: 315
+    Base experience: 261
+
+246. larvitar
+    Weight: 720
+    Height: 6
+    Order: 316
+    Base experience: 60
+
+247. pupitar
+    Weight: 1520
+    Height: 12
+    Order: 317
+    Base experience: 144
+
+248. tyranitar
+    Weight: 2020
+    Height: 20
+    Order: 318
+    Base experience: 270
+
+249. lugia
+    Weight: 2160
+    Height: 52
+    Order: 320
+    Base experience: 306
+
+250. ho-oh
+    Weight: 1990
+    Height: 38
+    Order: 321
+    Base experience: 306
+
+251. celebi
+    Weight: 50
+    Height: 6
+    Order: 322
+    Base experience: 270
+
+252. treecko
+    Weight: 50
+    Height: 5
+    Order: 323
+    Base experience: 62
+
+253. grovyle
+    Weight: 216
+    Height: 9
+    Order: 324
+    Base experience: 142
+
+254. sceptile
+    Weight: 522
+    Height: 17
+    Order: 325
+    Base experience: 239
+
+255. torchic
+    Weight: 25
+    Height: 4
+    Order: 327
+    Base experience: 62
+
+256. combusken
+    Weight: 195
+    Height: 9
+    Order: 328
+    Base experience: 142
+
+257. blaziken
+    Weight: 520
+    Height: 19
+    Order: 329
+    Base experience: 239
+
+258. mudkip
+    Weight: 76
+    Height: 4
+    Order: 331
+    Base experience: 62
+
+259. marshtomp
+    Weight: 280
+    Height: 7
+    Order: 332
+    Base experience: 142
+
+260. swampert
+    Weight: 819
+    Height: 15
+    Order: 333
+    Base experience: 241
+
+261. poochyena
+    Weight: 136
+    Height: 5
+    Order: 335
+    Base experience: 56
+
+262. mightyena
+    Weight: 370
+    Height: 10
+    Order: 336
+    Base experience: 147
+
+263. zigzagoon
+    Weight: 175
+    Height: 4
+    Order: 337
+    Base experience: 56
+
+264. linoone
+    Weight: 325
+    Height: 5
+    Order: 338
+    Base experience: 147
+
+265. wurmple
+    Weight: 36
+    Height: 3
+    Order: 339
+    Base experience: 56
+
+266. silcoon
+    Weight: 100
+    Height: 6
+    Order: 340
+    Base experience: 72
+
+267. beautifly
+    Weight: 284
+    Height: 10
+    Order: 341
+    Base experience: 178
+
+268. cascoon
+    Weight: 115
+    Height: 7
+    Order: 342
+    Base experience: 72
+
+269. dustox
+    Weight: 316
+    Height: 12
+    Order: 343
+    Base experience: 173
+
+270. lotad
+    Weight: 26
+    Height: 5
+    Order: 344
+    Base experience: 44
+
+271. lombre
+    Weight: 325
+    Height: 12
+    Order: 345
+    Base experience: 119
+
+272. ludicolo
+    Weight: 550
+    Height: 15
+    Order: 346
+    Base experience: 216
+
+273. seedot
+    Weight: 40
+    Height: 5
+    Order: 347
+    Base experience: 44
+
+274. nuzleaf
+    Weight: 280
+    Height: 10
+    Order: 348
+    Base experience: 119
+
+275. shiftry
+    Weight: 596
+    Height: 13
+    Order: 349
+    Base experience: 216
+
+276. taillow
+    Weight: 23
+    Height: 3
+    Order: 350
+    Base experience: 54
+
+277. swellow
+    Weight: 198
+    Height: 7
+    Order: 351
+    Base experience: 159
+
+278. wingull
+    Weight: 95
+    Height: 6
+    Order: 352
+    Base experience: 54
+
+279. pelipper
+    Weight: 280
+    Height: 12
+    Order: 353
+    Base experience: 154
+
+280. ralts
+    Weight: 66
+    Height: 4
+    Order: 354
+    Base experience: 40
+
+281. kirlia
+    Weight: 202
+    Height: 8
+    Order: 355
+    Base experience: 97
+
+282. gardevoir
+    Weight: 484
+    Height: 16
+    Order: 356
+    Base experience: 233
+
+283. surskit
+    Weight: 17
+    Height: 5
+    Order: 360
+    Base experience: 54
+
+284. masquerain
+    Weight: 36
+    Height: 8
+    Order: 361
+    Base experience: 159
+
+285. shroomish
+    Weight: 45
+    Height: 4
+    Order: 362
+    Base experience: 59
+
+286. breloom
+    Weight: 392
+    Height: 12
+    Order: 363
+    Base experience: 161
+
+287. slakoth
+    Weight: 240
+    Height: 8
+    Order: 364
+    Base experience: 56
+
+288. vigoroth
+    Weight: 465
+    Height: 14
+    Order: 365
+    Base experience: 154
+
+289. slaking
+    Weight: 1305
+    Height: 20
+    Order: 366
+    Base experience: 252
+
+290. nincada
+    Weight: 55
+    Height: 5
+    Order: 367
+    Base experience: 53
+
+291. ninjask
+    Weight: 120
+    Height: 8
+    Order: 368
+    Base experience: 160
+
+292. shedinja
+    Weight: 12
+    Height: 8
+    Order: 369
+    Base experience: 83
+
+293. whismur
+    Weight: 163
+    Height: 6
+    Order: 370
+    Base experience: 48
+
+294. loudred
+    Weight: 405
+    Height: 10
+    Order: 371
+    Base experience: 126
+
+295. exploud
+    Weight: 840
+    Height: 15
+    Order: 372
+    Base experience: 221
+
+296. makuhita
+    Weight: 864
+    Height: 10
+    Order: 373
+    Base experience: 47
+
+297. hariyama
+    Weight: 2538
+    Height: 23
+    Order: 374
+    Base experience: 166
+
+298. azurill
+    Weight: 20
+    Height: 2
+    Order: 254
+    Base experience: 38
+
+299. nosepass
+    Weight: 970
+    Height: 10
+    Order: 375
+    Base experience: 75
+
+300. skitty
+    Weight: 110
+    Height: 6
+    Order: 377
+    Base experience: 52
+
+301. delcatty
+    Weight: 326
+    Height: 11
+    Order: 378
+    Base experience: 140
+
+302. sableye
+    Weight: 110
+    Height: 5
+    Order: 379
+    Base experience: 133
+
+303. mawile
+    Weight: 115
+    Height: 6
+    Order: 381
+    Base experience: 133
+
+304. aron
+    Weight: 600
+    Height: 4
+    Order: 383
+    Base experience: 66
+
+305. lairon
+    Weight: 1200
+    Height: 9
+    Order: 384
+    Base experience: 151
+
+306. aggron
+    Weight: 3600
+    Height: 21
+    Order: 385
+    Base experience: 239
+
+307. meditite
+    Weight: 112
+    Height: 6
+    Order: 387
+    Base experience: 56
+
+308. medicham
+    Weight: 315
+    Height: 13
+    Order: 388
+    Base experience: 144
+
+309. electrike
+    Weight: 152
+    Height: 6
+    Order: 390
+    Base experience: 59
+
+310. manectric
+    Weight: 402
+    Height: 15
+    Order: 391
+    Base experience: 166
+
+311. plusle
+    Weight: 42
+    Height: 4
+    Order: 393
+    Base experience: 142
+
+312. minun
+    Weight: 42
+    Height: 4
+    Order: 394
+    Base experience: 142
+
+313. volbeat
+    Weight: 177
+    Height: 7
+    Order: 395
+    Base experience: 151
+
+314. illumise
+    Weight: 177
+    Height: 6
+    Order: 396
+    Base experience: 151
+
+315. roselia
+    Weight: 20
+    Height: 3
+    Order: 398
+    Base experience: 140
+
+316. gulpin
+    Weight: 103
+    Height: 4
+    Order: 400
+    Base experience: 60
+
+317. swalot
+    Weight: 800
+    Height: 17
+    Order: 401
+    Base experience: 163
+
+318. carvanha
+    Weight: 208
+    Height: 8
+    Order: 402
+    Base experience: 61
+
+319. sharpedo
+    Weight: 888
+    Height: 18
+    Order: 403
+    Base experience: 161
+
+320. wailmer
+    Weight: 1300
+    Height: 20
+    Order: 405
+    Base experience: 80
+
+321. wailord
+    Weight: 3980
+    Height: 145
+    Order: 406
+    Base experience: 175
+
+322. numel
+    Weight: 240
+    Height: 7
+    Order: 407
+    Base experience: 61
+
+323. camerupt
+    Weight: 2200
+    Height: 19
+    Order: 408
+    Base experience: 161
+
+324. torkoal
+    Weight: 804
+    Height: 5
+    Order: 410
+    Base experience: 165
+
+325. spoink
+    Weight: 306
+    Height: 7
+    Order: 411
+    Base experience: 66
+
+326. grumpig
+    Weight: 715
+    Height: 9
+    Order: 412
+    Base experience: 165
+
+327. spinda
+    Weight: 50
+    Height: 11
+    Order: 413
+    Base experience: 126
+
+328. trapinch
+    Weight: 150
+    Height: 7
+    Order: 414
+    Base experience: 58
+
+329. vibrava
+    Weight: 153
+    Height: 11
+    Order: 415
+    Base experience: 119
+
+330. flygon
+    Weight: 820
+    Height: 20
+    Order: 416
+    Base experience: 234
+
+331. cacnea
+    Weight: 513
+    Height: 4
+    Order: 417
+    Base experience: 67
+
+332. cacturne
+    Weight: 774
+    Height: 13
+    Order: 418
+    Base experience: 166
+
+333. swablu
+    Weight: 12
+    Height: 4
+    Order: 419
+    Base experience: 62
+
+334. altaria
+    Weight: 206
+    Height: 11
+    Order: 420
+    Base experience: 172
+
+335. zangoose
+    Weight: 403
+    Height: 13
+    Order: 422
+    Base experience: 160
+
+336. seviper
+    Weight: 525
+    Height: 27
+    Order: 423
+    Base experience: 160
+
+337. lunatone
+    Weight: 1680
+    Height: 10
+    Order: 424
+    Base experience: 161
+
+338. solrock
+    Weight: 1540
+    Height: 12
+    Order: 425
+    Base experience: 161
+
+339. barboach
+    Weight: 19
+    Height: 4
+    Order: 426
+    Base experience: 58
+
+340. whiscash
+    Weight: 236
+    Height: 9
+    Order: 427
+    Base experience: 164
+
+341. corphish
+    Weight: 115
+    Height: 6
+    Order: 428
+    Base experience: 62
+
+342. crawdaunt
+    Weight: 328
+    Height: 11
+    Order: 429
+    Base experience: 164
+
+343. baltoy
+    Weight: 215
+    Height: 5
+    Order: 430
+    Base experience: 60
+
+344. claydol
+    Weight: 1080
+    Height: 15
+    Order: 431
+    Base experience: 175
+
+345. lileep
+    Weight: 238
+    Height: 10
+    Order: 432
+    Base experience: 71
+
+346. cradily
+    Weight: 604
+    Height: 15
+    Order: 433
+    Base experience: 173
+
+347. anorith
+    Weight: 125
+    Height: 7
+    Order: 434
+    Base experience: 71
+
+348. armaldo
+    Weight: 682
+    Height: 15
+    Order: 435
+    Base experience: 173
+
+349. feebas
+    Weight: 74
+    Height: 6
+    Order: 436
+    Base experience: 40
+
+350. milotic
+    Weight: 1620
+    Height: 62
+    Order: 437
+    Base experience: 189
+
+351. castform
+    Weight: 8
+    Height: 3
+    Order: 438
+    Base experience: 147
+
+352. kecleon
+    Weight: 220
+    Height: 10
+    Order: 442
+    Base experience: 154
+
+353. shuppet
+    Weight: 23
+    Height: 6
+    Order: 443
+    Base experience: 59
+
+354. banette
+    Weight: 125
+    Height: 11
+    Order: 444
+    Base experience: 159
+
+355. duskull
+    Weight: 150
+    Height: 8
+    Order: 446
+    Base experience: 59
+
+356. dusclops
+    Weight: 306
+    Height: 16
+    Order: 447
+    Base experience: 159
+
+357. tropius
+    Weight: 1000
+    Height: 20
+    Order: 449
+    Base experience: 161
+
+358. chimecho
+    Weight: 10
+    Height: 6
+    Order: 451
+    Base experience: 159
+
+359. absol
+    Weight: 470
+    Height: 12
+    Order: 452
+    Base experience: 163
+
+360. wynaut
+    Weight: 140
+    Height: 6
+    Order: 275
+    Base experience: 52
+
+361. snorunt
+    Weight: 168
+    Height: 7
+    Order: 454
+    Base experience: 60
+
+362. glalie
+    Weight: 2565
+    Height: 15
+    Order: 455
+    Base experience: 168
+
+363. spheal
+    Weight: 395
+    Height: 8
+    Order: 458
+    Base experience: 58
+
+364. sealeo
+    Weight: 876
+    Height: 11
+    Order: 459
+    Base experience: 144
+
+365. walrein
+    Weight: 1506
+    Height: 14
+    Order: 460
+    Base experience: 239
+
+366. clamperl
+    Weight: 525
+    Height: 4
+    Order: 461
+    Base experience: 69
+
+367. huntail
+    Weight: 270
+    Height: 17
+    Order: 462
+    Base experience: 170
+
+368. gorebyss
+    Weight: 226
+    Height: 18
+    Order: 463
+    Base experience: 170
+
+369. relicanth
+    Weight: 234
+    Height: 10
+    Order: 464
+    Base experience: 170
+
+370. luvdisc
+    Weight: 87
+    Height: 6
+    Order: 465
+    Base experience: 116
+
+371. bagon
+    Weight: 421
+    Height: 6
+    Order: 466
+    Base experience: 60
+
+372. shelgon
+    Weight: 1105
+    Height: 11
+    Order: 467
+    Base experience: 147
+
+373. salamence
+    Weight: 1026
+    Height: 15
+    Order: 468
+    Base experience: 270
+
+374. beldum
+    Weight: 952
+    Height: 6
+    Order: 470
+    Base experience: 60
+
+375. metang
+    Weight: 2025
+    Height: 12
+    Order: 471
+    Base experience: 147
+
+376. metagross
+    Weight: 5500
+    Height: 16
+    Order: 472
+    Base experience: 270
+
+377. regirock
+    Weight: 2300
+    Height: 17
+    Order: 474
+    Base experience: 261
+
+378. regice
+    Weight: 1750
+    Height: 18
+    Order: 475
+    Base experience: 261
+
+379. registeel
+    Weight: 2050
+    Height: 19
+    Order: 476
+    Base experience: 261
+
+380. latias
+    Weight: 400
+    Height: 14
+    Order: 477
+    Base experience: 270
+
+381. latios
+    Weight: 600
+    Height: 20
+    Order: 479
+    Base experience: 270
+
+382. kyogre
+    Weight: 3520
+    Height: 45
+    Order: 481
+    Base experience: 302
+
+383. groudon
+    Weight: 9500
+    Height: 35
+    Order: 483
+    Base experience: 302
+
+384. rayquaza
+    Weight: 2065
+    Height: 70
+    Order: 485
+    Base experience: 306
+
+385. jirachi
+    Weight: 11
+    Height: 3
+    Order: 487
+    Base experience: 270
+
+386. deoxys-normal
+    Weight: 608
+    Height: 17
+    Order: 488
+    Base experience: 270
+
+387. turtwig
+    Weight: 102
+    Height: 4
+    Order: 492
+    Base experience: 64
+
+388. grotle
+    Weight: 970
+    Height: 11
+    Order: 493
+    Base experience: 142
+
+389. torterra
+    Weight: 3100
+    Height: 22
+    Order: 494
+    Base experience: 236
+
+390. chimchar
+    Weight: 62
+    Height: 5
+    Order: 495
+    Base experience: 62
+
+391. monferno
+    Weight: 220
+    Height: 9
+    Order: 496
+    Base experience: 142
+
+392. infernape
+    Weight: 550
+    Height: 12
+    Order: 497
+    Base experience: 240
+
+393. piplup
+    Weight: 52
+    Height: 4
+    Order: 498
+    Base experience: 63
+
+394. prinplup
+    Weight: 230
+    Height: 8
+    Order: 499
+    Base experience: 142
+
+395. empoleon
+    Weight: 845
+    Height: 17
+    Order: 500
+    Base experience: 239
+
+396. starly
+    Weight: 20
+    Height: 3
+    Order: 501
+    Base experience: 49
+
+397. staravia
+    Weight: 155
+    Height: 6
+    Order: 502
+    Base experience: 119
+
+398. staraptor
+    Weight: 249
+    Height: 12
+    Order: 503
+    Base experience: 218
+
+399. bidoof
+    Weight: 200
+    Height: 5
+    Order: 504
+    Base experience: 50
+
+400. bibarel
+    Weight: 315
+    Height: 10
+    Order: 505
+    Base experience: 144
+
+401. kricketot
+    Weight: 22
+    Height: 3
+    Order: 506
+    Base experience: 39
+
+402. kricketune
+    Weight: 255
+    Height: 10
+    Order: 507
+    Base experience: 134
+
+403. shinx
+    Weight: 95
+    Height: 5
+    Order: 508
+    Base experience: 53
+
+404. luxio
+    Weight: 305
+    Height: 9
+    Order: 509
+    Base experience: 127
+
+405. luxray
+    Weight: 420
+    Height: 14
+    Order: 510
+    Base experience: 235
+
+406. budew
+    Weight: 12
+    Height: 2
+    Order: 397
+    Base experience: 56
+
+407. roserade
+    Weight: 145
+    Height: 9
+    Order: 399
+    Base experience: 232
+
+408. cranidos
+    Weight: 315
+    Height: 9
+    Order: 511
+    Base experience: 70
+
+409. rampardos
+    Weight: 1025
+    Height: 16
+    Order: 512
+    Base experience: 173
+
+410. shieldon
+    Weight: 570
+    Height: 5
+    Order: 513
+    Base experience: 70
+
+411. bastiodon
+    Weight: 1495
+    Height: 13
+    Order: 514
+    Base experience: 173
+
+412. burmy
+    Weight: 34
+    Height: 2
+    Order: 515
+    Base experience: 45
+
+413. wormadam-plant
+    Weight: 65
+    Height: 5
+    Order: 516
+    Base experience: 148
+
+414. mothim
+    Weight: 233
+    Height: 9
+    Order: 519
+    Base experience: 148
+
+415. combee
+    Weight: 55
+    Height: 3
+    Order: 520
+    Base experience: 49
+
+416. vespiquen
+    Weight: 385
+    Height: 12
+    Order: 521
+    Base experience: 166
+
+417. pachirisu
+    Weight: 39
+    Height: 4
+    Order: 522
+    Base experience: 142
+
+418. buizel
+    Weight: 295
+    Height: 7
+    Order: 523
+    Base experience: 66
+
+419. floatzel
+    Weight: 335
+    Height: 11
+    Order: 524
+    Base experience: 173
+
+420. cherubi
+    Weight: 33
+    Height: 4
+    Order: 525
+    Base experience: 55
+
+421. cherrim
+    Weight: 93
+    Height: 5
+    Order: 526
+    Base experience: 158
+
+422. shellos
+    Weight: 63
+    Height: 3
+    Order: 527
+    Base experience: 65
+
+423. gastrodon
+    Weight: 299
+    Height: 9
+    Order: 528
+    Base experience: 166
+
+424. ambipom
+    Weight: 203
+    Height: 12
+    Order: 263
+    Base experience: 169
+
+425. drifloon
+    Weight: 12
+    Height: 4
+    Order: 529
+    Base experience: 70
+
+426. drifblim
+    Weight: 150
+    Height: 12
+    Order: 530
+    Base experience: 174
+
+427. buneary
+    Weight: 55
+    Height: 4
+    Order: 531
+    Base experience: 70
+
+428. lopunny
+    Weight: 333
+    Height: 12
+    Order: 532
+    Base experience: 168
+
+429. mismagius
+    Weight: 44
+    Height: 9
+    Order: 273
+    Base experience: 173
+
+430. honchkrow
+    Weight: 273
+    Height: 9
+    Order: 271
+    Base experience: 177
+
+431. glameow
+    Weight: 39
+    Height: 5
+    Order: 534
+    Base experience: 62
+
+432. purugly
+    Weight: 438
+    Height: 10
+    Order: 535
+    Base experience: 158
+
+433. chingling
+    Weight: 6
+    Height: 2
+    Order: 450
+    Base experience: 57
+
+434. stunky
+    Weight: 192
+    Height: 4
+    Order: 536
+    Base experience: 66
+
+435. skuntank
+    Weight: 380
+    Height: 10
+    Order: 537
+    Base experience: 168
+
+436. bronzor
+    Weight: 605
+    Height: 5
+    Order: 538
+    Base experience: 60
+
+437. bronzong
+    Weight: 1870
+    Height: 13
+    Order: 539
+    Base experience: 175
+
+438. bonsly
+    Weight: 150
+    Height: 5
+    Order: 257
+    Base experience: 58
+
+439. mime-jr
+    Weight: 130
+    Height: 6
+    Order: 175
+    Base experience: 62
+
+440. happiny
+    Weight: 244
+    Height: 6
+    Order: 161
+    Base experience: 110
+
+441. chatot
+    Weight: 19
+    Height: 5
+    Order: 540
+    Base experience: 144
+
+442. spiritomb
+    Weight: 1080
+    Height: 10
+    Order: 541
+    Base experience: 170
+
+443. gible
+    Weight: 205
+    Height: 7
+    Order: 542
+    Base experience: 60
+
+444. gabite
+    Weight: 560
+    Height: 14
+    Order: 543
+    Base experience: 144
+
+445. garchomp
+    Weight: 950
+    Height: 19
+    Order: 544
+    Base experience: 270
+
+446. munchlax
+    Weight: 1050
+    Height: 6
+    Order: 214
+    Base experience: 78
+
+447. riolu
+    Weight: 202
+    Height: 7
+    Order: 546
+    Base experience: 57
+
+448. lucario
+    Weight: 540
+    Height: 12
+    Order: 547
+    Base experience: 184
+
+449. hippopotas
+    Weight: 495
+    Height: 8
+    Order: 549
+    Base experience: 66
+
+450. hippowdon
+    Weight: 3000
+    Height: 20
+    Order: 550
+    Base experience: 184
+
+451. skorupi
+    Weight: 120
+    Height: 8
+    Order: 551
+    Base experience: 66
+
+452. drapion
+    Weight: 615
+    Height: 13
+    Order: 552
+    Base experience: 175
+
+453. croagunk
+    Weight: 230
+    Height: 7
+    Order: 553
+    Base experience: 60
+
+454. toxicroak
+    Weight: 444
+    Height: 13
+    Order: 554
+    Base experience: 172
+
+455. carnivine
+    Weight: 270
+    Height: 14
+    Order: 555
+    Base experience: 159
+
+456. finneon
+    Weight: 70
+    Height: 4
+    Order: 556
+    Base experience: 66
+
+457. lumineon
+    Weight: 240
+    Height: 12
+    Order: 557
+    Base experience: 161
+
+458. mantyke
+    Weight: 650
+    Height: 10
+    Order: 302
+    Base experience: 69
+
+459. snover
+    Weight: 505
+    Height: 10
+    Order: 558
+    Base experience: 67
+
+460. abomasnow
+    Weight: 1355
+    Height: 22
+    Order: 559
+    Base experience: 173
+
+461. weavile
+    Weight: 340
+    Height: 11
+    Order: 290
+    Base experience: 179
+
+462. magnezone
+    Weight: 1800
+    Height: 12
+    Order: 119
+    Base experience: 241
+
+463. lickilicky
+    Weight: 1400
+    Height: 17
+    Order: 155
+    Base experience: 180
+
+464. rhyperior
+    Weight: 2828
+    Height: 24
+    Order: 160
+    Base experience: 241
+
+465. tangrowth
+    Weight: 1286
+    Height: 20
+    Order: 165
+    Base experience: 187
+
+466. electivire
+    Weight: 1386
+    Height: 18
+    Order: 184
+    Base experience: 243
+
+467. magmortar
+    Weight: 680
+    Height: 16
+    Order: 187
+    Base experience: 243
+
+468. togekiss
+    Weight: 380
+    Height: 15
+    Order: 247
+    Base experience: 245
+
+469. yanmega
+    Weight: 515
+    Height: 19
+    Order: 267
+    Base experience: 180
+
+470. leafeon
+    Weight: 255
+    Height: 10
+    Order: 202
+    Base experience: 184
+
+471. glaceon
+    Weight: 259
+    Height: 8
+    Order: 203
+    Base experience: 184
+
+472. gliscor
+    Weight: 425
+    Height: 20
+    Order: 282
+    Base experience: 179
+
+473. mamoswine
+    Weight: 2910
+    Height: 25
+    Order: 297
+    Base experience: 239
+
+474. porygon-z
+    Weight: 340
+    Height: 9
+    Order: 207
+    Base experience: 241
+
+475. gallade
+    Weight: 520
+    Height: 16
+    Order: 358
+    Base experience: 233
+
+476. probopass
+    Weight: 3400
+    Height: 14
+    Order: 376
+    Base experience: 184
+
+477. dusknoir
+    Weight: 1066
+    Height: 22
+    Order: 448
+    Base experience: 236
+
+478. froslass
+    Weight: 266
+    Height: 13
+    Order: 457
+    Base experience: 168
+
+479. rotom
+    Weight: 3
+    Height: 3
+    Order: 561
+    Base experience: 154
+
+480. uxie
+    Weight: 3
+    Height: 3
+    Order: 567
+    Base experience: 261
+
+481. mesprit
+    Weight: 3
+    Height: 3
+    Order: 568
+    Base experience: 261
+
+482. azelf
+    Weight: 3
+    Height: 3
+    Order: 569
+    Base experience: 261
+
+483. dialga
+    Weight: 6830
+    Height: 54
+    Order: 570
+    Base experience: 306
+
+484. palkia
+    Weight: 3360
+    Height: 42
+    Order: 571
+    Base experience: 306
+
+485. heatran
+    Weight: 4300
+    Height: 17
+    Order: 572
+    Base experience: 270
+
+486. regigigas
+    Weight: 4200
+    Height: 37
+    Order: 573
+    Base experience: 302
+
+487. giratina-altered
+    Weight: 7500
+    Height: 45
+    Order: 574
+    Base experience: 306
+
+488. cresselia
+    Weight: 856
+    Height: 15
+    Order: 576
+    Base experience: 270
+
+489. phione
+    Weight: 31
+    Height: 4
+    Order: 577
+    Base experience: 216
+
+490. manaphy
+    Weight: 14
+    Height: 3
+    Order: 578
+    Base experience: 270
+
+491. darkrai
+    Weight: 505
+    Height: 15
+    Order: 579
+    Base experience: 270
+
+492. shaymin-land
+    Weight: 21
+    Height: 2
+    Order: 580
+    Base experience: 270
+
+493. arceus
+    Weight: 3200
+    Height: 32
+    Order: 582
+    Base experience: 324
+
+494. victini
+    Weight: 40
+    Height: 4
+    Order: 583
+    Base experience: 270
+
+495. snivy
+    Weight: 81
+    Height: 6
+    Order: 584
+    Base experience: 62
+
+496. servine
+    Weight: 160
+    Height: 8
+    Order: 585
+    Base experience: 145
+
+497. serperior
+    Weight: 630
+    Height: 33
+    Order: 586
+    Base experience: 238
+
+498. tepig
+    Weight: 99
+    Height: 5
+    Order: 587
+    Base experience: 62
+
+499. pignite
+    Weight: 555
+    Height: 10
+    Order: 588
+    Base experience: 146
+
+500. emboar
+    Weight: 1500
+    Height: 16
+    Order: 589
+    Base experience: 238
+
+501. oshawott
+    Weight: 59
+    Height: 5
+    Order: 590
+    Base experience: 62
+
+502. dewott
+    Weight: 245
+    Height: 8
+    Order: 591
+    Base experience: 145
+
+503. samurott
+    Weight: 946
+    Height: 15
+    Order: 592
+    Base experience: 238
+
+504. patrat
+    Weight: 116
+    Height: 5
+    Order: 593
+    Base experience: 51
+
+505. watchog
+    Weight: 270
+    Height: 11
+    Order: 594
+    Base experience: 147
+
+506. lillipup
+    Weight: 41
+    Height: 4
+    Order: 595
+    Base experience: 55
+
+507. herdier
+    Weight: 147
+    Height: 9
+    Order: 596
+    Base experience: 130
+
+508. stoutland
+    Weight: 610
+    Height: 12
+    Order: 597
+    Base experience: 225
+
+509. purrloin
+    Weight: 101
+    Height: 4
+    Order: 598
+    Base experience: 56
+
+510. liepard
+    Weight: 375
+    Height: 11
+    Order: 599
+    Base experience: 156
+
+511. pansage
+    Weight: 105
+    Height: 6
+    Order: 600
+    Base experience: 63
+
+512. simisage
+    Weight: 305
+    Height: 11
+    Order: 601
+    Base experience: 174
+
+513. pansear
+    Weight: 110
+    Height: 6
+    Order: 602
+    Base experience: 63
+
+514. simisear
+    Weight: 280
+    Height: 10
+    Order: 603
+    Base experience: 174
+
+515. panpour
+    Weight: 135
+    Height: 6
+    Order: 604
+    Base experience: 63
+
+516. simipour
+    Weight: 290
+    Height: 10
+    Order: 605
+    Base experience: 174
+
+517. munna
+    Weight: 233
+    Height: 6
+    Order: 606
+    Base experience: 58
+
+518. musharna
+    Weight: 605
+    Height: 11
+    Order: 607
+    Base experience: 170
+
+519. pidove
+    Weight: 21
+    Height: 3
+    Order: 608
+    Base experience: 53
+
+520. tranquill
+    Weight: 150
+    Height: 6
+    Order: 609
+    Base experience: 125
+
+521. unfezant
+    Weight: 290
+    Height: 12
+    Order: 610
+    Base experience: 220
+
+522. blitzle
+    Weight: 298
+    Height: 8
+    Order: 611
+    Base experience: 59
+
+523. zebstrika
+    Weight: 795
+    Height: 16
+    Order: 612
+    Base experience: 174
+
+524. roggenrola
+    Weight: 180
+    Height: 4
+    Order: 613
+    Base experience: 56
+
+525. boldore
+    Weight: 1020
+    Height: 9
+    Order: 614
+    Base experience: 137
+
+526. gigalith
+    Weight: 2600
+    Height: 17
+    Order: 615
+    Base experience: 232
+
+527. woobat
+    Weight: 21
+    Height: 4
+    Order: 616
+    Base experience: 65
+
+528. swoobat
+    Weight: 105
+    Height: 9
+    Order: 617
+    Base experience: 149
+
+529. drilbur
+    Weight: 85
+    Height: 3
+    Order: 618
+    Base experience: 66
+
+530. excadrill
+    Weight: 404
+    Height: 7
+    Order: 619
+    Base experience: 178
+
+531. audino
+    Weight: 310
+    Height: 11
+    Order: 620
+    Base experience: 390
+
+532. timburr
+    Weight: 125
+    Height: 6
+    Order: 622
+    Base experience: 61
+
+533. gurdurr
+    Weight: 400
+    Height: 12
+    Order: 623
+    Base experience: 142
+
+534. conkeldurr
+    Weight: 870
+    Height: 14
+    Order: 624
+    Base experience: 227
+
+535. tympole
+    Weight: 45
+    Height: 5
+    Order: 625
+    Base experience: 59
+
+536. palpitoad
+    Weight: 170
+    Height: 8
+    Order: 626
+    Base experience: 134
+
+537. seismitoad
+    Weight: 620
+    Height: 15
+    Order: 627
+    Base experience: 229
+
+538. throh
+    Weight: 555
+    Height: 13
+    Order: 628
+    Base experience: 163
+
+539. sawk
+    Weight: 510
+    Height: 14
+    Order: 629
+    Base experience: 163
+
+540. sewaddle
+    Weight: 25
+    Height: 3
+    Order: 630
+    Base experience: 62
+
+541. swadloon
+    Weight: 73
+    Height: 5
+    Order: 631
+    Base experience: 133
+
+542. leavanny
+    Weight: 205
+    Height: 12
+    Order: 632
+    Base experience: 225
+
+543. venipede
+    Weight: 53
+    Height: 4
+    Order: 633
+    Base experience: 52
+
+544. whirlipede
+    Weight: 585
+    Height: 12
+    Order: 634
+    Base experience: 126
+
+545. scolipede
+    Weight: 2005
+    Height: 25
+    Order: 635
+    Base experience: 218
+
+546. cottonee
+    Weight: 6
+    Height: 3
+    Order: 636
+    Base experience: 56
+
+547. whimsicott
+    Weight: 66
+    Height: 7
+    Order: 637
+    Base experience: 168
+
+548. petilil
+    Weight: 66
+    Height: 5
+    Order: 638
+    Base experience: 56
+
+549. lilligant
+    Weight: 163
+    Height: 11
+    Order: 639
+    Base experience: 168
+
+550. basculin-red-striped
+    Weight: 180
+    Height: 10
+    Order: 640
+    Base experience: 161
+
+551. sandile
+    Weight: 152
+    Height: 7
+    Order: 642
+    Base experience: 58
+
+552. krokorok
+    Weight: 334
+    Height: 10
+    Order: 643
+    Base experience: 123
+
+553. krookodile
+    Weight: 963
+    Height: 15
+    Order: 644
+    Base experience: 234
+
+554. darumaka
+    Weight: 375
+    Height: 6
+    Order: 645
+    Base experience: 63
+
+555. darmanitan-standard
+    Weight: 929
+    Height: 13
+    Order: 646
+    Base experience: 168
+
+556. maractus
+    Weight: 280
+    Height: 10
+    Order: 648
+    Base experience: 161
+
+557. dwebble
+    Weight: 145
+    Height: 3
+    Order: 649
+    Base experience: 65
+
+558. crustle
+    Weight: 2000
+    Height: 14
+    Order: 650
+    Base experience: 170
+
+559. scraggy
+    Weight: 118
+    Height: 6
+    Order: 651
+    Base experience: 70
+
+560. scrafty
+    Weight: 300
+    Height: 11
+    Order: 652
+    Base experience: 171
+
+561. sigilyph
+    Weight: 140
+    Height: 14
+    Order: 653
+    Base experience: 172
+
+562. yamask
+    Weight: 15
+    Height: 5
+    Order: 654
+    Base experience: 61
+
+563. cofagrigus
+    Weight: 765
+    Height: 17
+    Order: 655
+    Base experience: 169
+
+564. tirtouga
+    Weight: 165
+    Height: 7
+    Order: 656
+    Base experience: 71
+
+565. carracosta
+    Weight: 810
+    Height: 12
+    Order: 657
+    Base experience: 173
+
+566. archen
+    Weight: 95
+    Height: 5
+    Order: 658
+    Base experience: 71
+
+567. archeops
+    Weight: 320
+    Height: 14
+    Order: 659
+    Base experience: 177
+
+568. trubbish
+    Weight: 310
+    Height: 6
+    Order: 660
+    Base experience: 66
+
+569. garbodor
+    Weight: 1073
+    Height: 19
+    Order: 661
+    Base experience: 166
+
+570. zorua
+    Weight: 125
+    Height: 7
+    Order: 662
+    Base experience: 66
+
+571. zoroark
+    Weight: 811
+    Height: 16
+    Order: 663
+    Base experience: 179
+
+572. minccino
+    Weight: 58
+    Height: 4
+    Order: 664
+    Base experience: 60
+
+573. cinccino
+    Weight: 75
+    Height: 5
+    Order: 665
+    Base experience: 165
+
+574. gothita
+    Weight: 58
+    Height: 4
+    Order: 666
+    Base experience: 58
+
+575. gothorita
+    Weight: 180
+    Height: 7
+    Order: 667
+    Base experience: 137
+
+576. gothitelle
+    Weight: 440
+    Height: 15
+    Order: 668
+    Base experience: 221
+
+577. solosis
+    Weight: 10
+    Height: 3
+    Order: 669
+    Base experience: 58
+
+578. duosion
+    Weight: 80
+    Height: 6
+    Order: 670
+    Base experience: 130
+
+579. reuniclus
+    Weight: 201
+    Height: 10
+    Order: 671
+    Base experience: 221
+
+580. ducklett
+    Weight: 55
+    Height: 5
+    Order: 672
+    Base experience: 61
+
+581. swanna
+    Weight: 242
+    Height: 13
+    Order: 673
+    Base experience: 166
+
+582. vanillite
+    Weight: 57
+    Height: 4
+    Order: 674
+    Base experience: 61
+
+583. vanillish
+    Weight: 410
+    Height: 11
+    Order: 675
+    Base experience: 138
+
+584. vanilluxe
+    Weight: 575
+    Height: 13
+    Order: 676
+    Base experience: 241
+
+585. deerling
+    Weight: 195
+    Height: 6
+    Order: 677
+    Base experience: 67
+
+586. sawsbuck
+    Weight: 925
+    Height: 19
+    Order: 678
+    Base experience: 166
+
+587. emolga
+    Weight: 50
+    Height: 4
+    Order: 679
+    Base experience: 150
+
+588. karrablast
+    Weight: 59
+    Height: 5
+    Order: 680
+    Base experience: 63
+
+589. escavalier
+    Weight: 330
+    Height: 10
+    Order: 681
+    Base experience: 173
+
+590. foongus
+    Weight: 10
+    Height: 2
+    Order: 682
+    Base experience: 59
+
+591. amoonguss
+    Weight: 105
+    Height: 6
+    Order: 683
+    Base experience: 162
+
+592. frillish
+    Weight: 330
+    Height: 12
+    Order: 684
+    Base experience: 67
+
+593. jellicent
+    Weight: 1350
+    Height: 22
+    Order: 685
+    Base experience: 168
+
+594. alomomola
+    Weight: 316
+    Height: 12
+    Order: 686
+    Base experience: 165
+
+595. joltik
+    Weight: 6
+    Height: 1
+    Order: 687
+    Base experience: 64
+
+596. galvantula
+    Weight: 143
+    Height: 8
+    Order: 688
+    Base experience: 165
+
+597. ferroseed
+    Weight: 188
+    Height: 6
+    Order: 689
+    Base experience: 61
+
+598. ferrothorn
+    Weight: 1100
+    Height: 10
+    Order: 690
+    Base experience: 171
+
+599. klink
+    Weight: 210
+    Height: 3
+    Order: 691
+    Base experience: 60
+
+600. klang
+    Weight: 510
+    Height: 6
+    Order: 692
+    Base experience: 154
+
+601. klinklang
+    Weight: 810
+    Height: 6
+    Order: 693
+    Base experience: 234
+
+602. tynamo
+    Weight: 3
+    Height: 2
+    Order: 694
+    Base experience: 55
+
+603. eelektrik
+    Weight: 220
+    Height: 12
+    Order: 695
+    Base experience: 142
+
+604. eelektross
+    Weight: 805
+    Height: 21
+    Order: 696
+    Base experience: 232
+
+605. elgyem
+    Weight: 90
+    Height: 5
+    Order: 697
+    Base experience: 67
+
+606. beheeyem
+    Weight: 345
+    Height: 10
+    Order: 698
+    Base experience: 170
+
+607. litwick
+    Weight: 31
+    Height: 3
+    Order: 699
+    Base experience: 55
+
+608. lampent
+    Weight: 130
+    Height: 6
+    Order: 700
+    Base experience: 130
+
+609. chandelure
+    Weight: 343
+    Height: 10
+    Order: 701
+    Base experience: 234
+
+610. axew
+    Weight: 180
+    Height: 6
+    Order: 702
+    Base experience: 64
+
+611. fraxure
+    Weight: 360
+    Height: 10
+    Order: 703
+    Base experience: 144
+
+612. haxorus
+    Weight: 1055
+    Height: 18
+    Order: 704
+    Base experience: 243
+
+613. cubchoo
+    Weight: 85
+    Height: 5
+    Order: 705
+    Base experience: 61
+
+614. beartic
+    Weight: 2600
+    Height: 26
+    Order: 706
+    Base experience: 177
+
+615. cryogonal
+    Weight: 1480
+    Height: 11
+    Order: 707
+    Base experience: 180
+
+616. shelmet
+    Weight: 77
+    Height: 4
+    Order: 708
+    Base experience: 61
+
+617. accelgor
+    Weight: 253
+    Height: 8
+    Order: 709
+    Base experience: 173
+
+618. stunfisk
+    Weight: 110
+    Height: 7
+    Order: 710
+    Base experience: 165
+
+619. mienfoo
+    Weight: 200
+    Height: 9
+    Order: 711
+    Base experience: 70
+
+620. mienshao
+    Weight: 355
+    Height: 14
+    Order: 712
+    Base experience: 179
+
+621. druddigon
+    Weight: 1390
+    Height: 16
+    Order: 713
+    Base experience: 170
+
+622. golett
+    Weight: 920
+    Height: 10
+    Order: 714
+    Base experience: 61
+
+623. golurk
+    Weight: 3300
+    Height: 28
+    Order: 715
+    Base experience: 169
+
+624. pawniard
+    Weight: 102
+    Height: 5
+    Order: 716
+    Base experience: 68
+
+625. bisharp
+    Weight: 700
+    Height: 16
+    Order: 717
+    Base experience: 172
+
+626. bouffalant
+    Weight: 946
+    Height: 16
+    Order: 718
+    Base experience: 172
+
+627. rufflet
+    Weight: 105
+    Height: 5
+    Order: 719
+    Base experience: 70
+
+628. braviary
+    Weight: 410
+    Height: 15
+    Order: 720
+    Base experience: 179
+
+629. vullaby
+    Weight: 90
+    Height: 5
+    Order: 721
+    Base experience: 74
+
+630. mandibuzz
+    Weight: 395
+    Height: 12
+    Order: 722
+    Base experience: 179
+
+631. heatmor
+    Weight: 580
+    Height: 14
+    Order: 723
+    Base experience: 169
+
+632. durant
+    Weight: 330
+    Height: 3
+    Order: 724
+    Base experience: 169
+
+633. deino
+    Weight: 173
+    Height: 8
+    Order: 725
+    Base experience: 60
+
+634. zweilous
+    Weight: 500
+    Height: 14
+    Order: 726
+    Base experience: 147
+
+635. hydreigon
+    Weight: 1600
+    Height: 18
+    Order: 727
+    Base experience: 270
+
+636. larvesta
+    Weight: 288
+    Height: 11
+    Order: 728
+    Base experience: 72
+
+637. volcarona
+    Weight: 460
+    Height: 16
+    Order: 729
+    Base experience: 248
+
+638. cobalion
+    Weight: 2500
+    Height: 21
+    Order: 730
+    Base experience: 261
+
+639. terrakion
+    Weight: 2600
+    Height: 19
+    Order: 731
+    Base experience: 261
+
+640. virizion
+    Weight: 2000
+    Height: 20
+    Order: 732
+    Base experience: 261
+
+641. tornadus-incarnate
+    Weight: 630
+    Height: 15
+    Order: 733
+    Base experience: 261
+
+642. thundurus-incarnate
+    Weight: 610
+    Height: 15
+    Order: 735
+    Base experience: 261
+
+643. reshiram
+    Weight: 3300
+    Height: 32
+    Order: 737
+    Base experience: 306
+
+644. zekrom
+    Weight: 3450
+    Height: 29
+    Order: 738
+    Base experience: 306
+
+645. landorus-incarnate
+    Weight: 680
+    Height: 15
+    Order: 739
+    Base experience: 270
+
+646. kyurem
+    Weight: 3250
+    Height: 30
+    Order: 741
+    Base experience: 297
+
+647. keldeo-ordinary
+    Weight: 485
+    Height: 14
+    Order: 744
+    Base experience: 261
+
+648. meloetta-aria
+    Weight: 65
+    Height: 6
+    Order: 746
+    Base experience: 270
+
+649. genesect
+    Weight: 825
+    Height: 15
+    Order: 748
+    Base experience: 270
+
+650. chespin
+    Weight: 90
+    Height: 4
+    Order: 749
+    Base experience: 63
+
+651. quilladin
+    Weight: 290
+    Height: 7
+    Order: 750
+    Base experience: 142
+
+652. chesnaught
+    Weight: 900
+    Height: 16
+    Order: 751
+    Base experience: 239
+
+653. fennekin
+    Weight: 94
+    Height: 4
+    Order: 752
+    Base experience: 61
+
+654. braixen
+    Weight: 145
+    Height: 10
+    Order: 753
+    Base experience: 143
+
+655. delphox
+    Weight: 390
+    Height: 15
+    Order: 754
+    Base experience: 240
+
+656. froakie
+    Weight: 70
+    Height: 3
+    Order: 755
+    Base experience: 63
+
+657. frogadier
+    Weight: 109
+    Height: 6
+    Order: 756
+    Base experience: 142
+
+658. greninja
+    Weight: 400
+    Height: 15
+    Order: 757
+    Base experience: 239
+
+659. bunnelby
+    Weight: 50
+    Height: 4
+    Order: 760
+    Base experience: 47
+
+660. diggersby
+    Weight: 424
+    Height: 10
+    Order: 761
+    Base experience: 148
+
+661. fletchling
+    Weight: 17
+    Height: 3
+    Order: 762
+    Base experience: 56
+
+662. fletchinder
+    Weight: 160
+    Height: 7
+    Order: 763
+    Base experience: 134
+
+663. talonflame
+    Weight: 245
+    Height: 12
+    Order: 764
+    Base experience: 175
+
+664. scatterbug
+    Weight: 25
+    Height: 3
+    Order: 765
+    Base experience: 40
+
+665. spewpa
+    Weight: 84
+    Height: 3
+    Order: 766
+    Base experience: 75
+
+666. vivillon
+    Weight: 170
+    Height: 12
+    Order: 767
+    Base experience: 185
+
+667. litleo
+    Weight: 135
+    Height: 6
+    Order: 768
+    Base experience: 74
+
+668. pyroar
+    Weight: 815
+    Height: 15
+    Order: 769
+    Base experience: 177
+
+669. flabebe
+    Weight: 1
+    Height: 1
+    Order: 770
+    Base experience: 61
+
+670. floette
+    Weight: 9
+    Height: 2
+    Order: 771
+    Base experience: 130
+
+671. florges
+    Weight: 100
+    Height: 11
+    Order: 773
+    Base experience: 248
+
+672. skiddo
+    Weight: 310
+    Height: 9
+    Order: 774
+    Base experience: 70
+
+673. gogoat
+    Weight: 910
+    Height: 17
+    Order: 775
+    Base experience: 186
+
+674. pancham
+    Weight: 80
+    Height: 6
+    Order: 776
+    Base experience: 70
+
+675. pangoro
+    Weight: 1360
+    Height: 21
+    Order: 777
+    Base experience: 173
+
+676. furfrou
+    Weight: 280
+    Height: 12
+    Order: 778
+    Base experience: 165
+
+677. espurr
+    Weight: 35
+    Height: 3
+    Order: 779
+    Base experience: 71
+
+678. meowstic-male
+    Weight: 85
+    Height: 6
+    Order: 780
+    Base experience: 163
+
+679. honedge
+    Weight: 20
+    Height: 8
+    Order: 782
+    Base experience: 65
+
+680. doublade
+    Weight: 45
+    Height: 8
+    Order: 783
+    Base experience: 157
+
+681. aegislash-shield
+    Weight: 530
+    Height: 17
+    Order: 784
+    Base experience: 234
+
+682. spritzee
+    Weight: 5
+    Height: 2
+    Order: 786
+    Base experience: 68
+
+683. aromatisse
+    Weight: 155
+    Height: 8
+    Order: 787
+    Base experience: 162
+
+684. swirlix
+    Weight: 35
+    Height: 4
+    Order: 788
+    Base experience: 68
+
+685. slurpuff
+    Weight: 50
+    Height: 8
+    Order: 789
+    Base experience: 168
+
+686. inkay
+    Weight: 35
+    Height: 4
+    Order: 790
+    Base experience: 58
+
+687. malamar
+    Weight: 470
+    Height: 15
+    Order: 791
+    Base experience: 169
+
+688. binacle
+    Weight: 310
+    Height: 5
+    Order: 792
+    Base experience: 61
+
+689. barbaracle
+    Weight: 960
+    Height: 13
+    Order: 793
+    Base experience: 175
+
+690. skrelp
+    Weight: 73
+    Height: 5
+    Order: 794
+    Base experience: 64
+
+691. dragalge
+    Weight: 815
+    Height: 18
+    Order: 795
+    Base experience: 173
+
+692. clauncher
+    Weight: 83
+    Height: 5
+    Order: 796
+    Base experience: 66
+
+693. clawitzer
+    Weight: 353
+    Height: 13
+    Order: 797
+    Base experience: 100
+
+694. helioptile
+    Weight: 60
+    Height: 5
+    Order: 798
+    Base experience: 58
+
+695. heliolisk
+    Weight: 210
+    Height: 10
+    Order: 799
+    Base experience: 168
+
+696. tyrunt
+    Weight: 260
+    Height: 8
+    Order: 800
+    Base experience: 72
+
+697. tyrantrum
+    Weight: 2700
+    Height: 25
+    Order: 801
+    Base experience: 182
+
+698. amaura
+    Weight: 252
+    Height: 13
+    Order: 802
+    Base experience: 72
+
+699. aurorus
+    Weight: 2250
+    Height: 27
+    Order: 803
+    Base experience: 104
+
+700. sylveon
+    Weight: 235
+    Height: 10
+    Order: 204
+    Base experience: 184
+
+701. hawlucha
+    Weight: 215
+    Height: 8
+    Order: 804
+    Base experience: 175
+
+702. dedenne
+    Weight: 22
+    Height: 2
+    Order: 805
+    Base experience: 151
+
+703. carbink
+    Weight: 57
+    Height: 3
+    Order: 806
+    Base experience: 100
+
+704. goomy
+    Weight: 28
+    Height: 3
+    Order: 807
+    Base experience: 60
+
+705. sliggoo
+    Weight: 175
+    Height: 8
+    Order: 808
+    Base experience: 158
+
+706. goodra
+    Weight: 1505
+    Height: 20
+    Order: 809
+    Base experience: 270
+
+707. klefki
+    Weight: 30
+    Height: 2
+    Order: 810
+    Base experience: 165
+
+708. phantump
+    Weight: 70
+    Height: 4
+    Order: 811
+    Base experience: 62
+
+709. trevenant
+    Weight: 710
+    Height: 15
+    Order: 812
+    Base experience: 166
+
+710. pumpkaboo-average
+    Weight: 50
+    Height: 4
+    Order: 813
+    Base experience: 67
+
+711. gourgeist-average
+    Weight: 125
+    Height: 9
+    Order: 817
+    Base experience: 173
+
+712. bergmite
+    Weight: 995
+    Height: 10
+    Order: 821
+    Base experience: 61
+
+713. avalugg
+    Weight: 5050
+    Height: 20
+    Order: 822
+    Base experience: 180
+
+714. noibat
+    Weight: 80
+    Height: 5
+    Order: 823
+    Base experience: 49
+
+715. noivern
+    Weight: 850
+    Height: 15
+    Order: 824
+    Base experience: 187
+
+716. xerneas
+    Weight: 2150
+    Height: 30
+    Order: 825
+    Base experience: 306
+
+717. yveltal
+    Weight: 2030
+    Height: 58
+    Order: 826
+    Base experience: 306
+
+718. zygarde
+    Weight: 3050
+    Height: 50
+    Order: 827
+    Base experience: 270
+
+719. diancie
+    Weight: 88
+    Height: 7
+    Order: 831
+    Base experience: 270
+
+720. hoopa
+    Weight: 90
+    Height: 5
+    Order: 833
+    Base experience: 270
+
+721. volcanion
+    Weight: 1950
+    Height: 17
+    Order: 835
+    Base experience: 270
+
+722. rowlet
+    Weight: 15
+    Height: 3
+    Order: 836
+    Base experience: 64
+
+723. dartrix
+    Weight: 160
+    Height: 7
+    Order: 837
+    Base experience: 147
+
+724. decidueye
+    Weight: 366
+    Height: 16
+    Order: 838
+    Base experience: 239
+
+725. litten
+    Weight: 43
+    Height: 4
+    Order: 839
+    Base experience: 64
+
+726. torracat
+    Weight: 250
+    Height: 7
+    Order: 840
+    Base experience: 147
+
+727. incineroar
+    Weight: 830
+    Height: 18
+    Order: 841
+    Base experience: 239
+
+728. popplio
+    Weight: 75
+    Height: 4
+    Order: 842
+    Base experience: 64
+
+729. brionne
+    Weight: 175
+    Height: 6
+    Order: 843
+    Base experience: 147
+
+730. primarina
+    Weight: 440
+    Height: 18
+    Order: 844
+    Base experience: 239
+
+731. pikipek
+    Weight: 12
+    Height: 3
+    Order: 845
+    Base experience: 53
+
+732. trumbeak
+    Weight: 148
+    Height: 6
+    Order: 846
+    Base experience: 124
+
+733. toucannon
+    Weight: 260
+    Height: 11
+    Order: 847
+    Base experience: 218
+
+734. yungoos
+    Weight: 60
+    Height: 4
+    Order: 848
+    Base experience: 51
+
+735. gumshoos
+    Weight: 142
+    Height: 7
+    Order: 849
+    Base experience: 146
+
+736. grubbin
+    Weight: 44
+    Height: 4
+    Order: 851
+    Base experience: 60
+
+737. charjabug
+    Weight: 105
+    Height: 5
+    Order: 852
+    Base experience: 140
+
+738. vikavolt
+    Weight: 450
+    Height: 15
+    Order: 853
+    Base experience: 225
+
+739. crabrawler
+    Weight: 70
+    Height: 6
+    Order: 855
+    Base experience: 68
+
+740. crabominable
+    Weight: 1800
+    Height: 17
+    Order: 856
+    Base experience: 167
+
+741. oricorio-baile
+    Weight: 34
+    Height: 6
+    Order: 857
+    Base experience: 167
+
+742. cutiefly
+    Weight: 2
+    Height: 1
+    Order: 861
+    Base experience: 61
+
+743. ribombee
+    Weight: 5
+    Height: 2
+    Order: 862
+    Base experience: 162
+
+744. rockruff
+    Weight: 92
+    Height: 5
+    Order: 863
+    Base experience: 56
+
+745. lycanroc-midday
+    Weight: 250
+    Height: 8
+    Order: 864
+    Base experience: 170
+
+746. wishiwashi-solo
+    Weight: 3
+    Height: 2
+    Order: 866
+    Base experience: 61
+
+747. mareanie
+    Weight: 80
+    Height: 4
+    Order: 868
+    Base experience: 61
+
+748. toxapex
+    Weight: 145
+    Height: 7
+    Order: 869
+    Base experience: 173
+
+749. mudbray
+    Weight: 1100
+    Height: 10
+    Order: 870
+    Base experience: 77
+
+750. mudsdale
+    Weight: 9200
+    Height: 25
+    Order: 871
+    Base experience: 175
+
+751. dewpider
+    Weight: 40
+    Height: 3
+    Order: 872
+    Base experience: 54
+
+752. araquanid
+    Weight: 820
+    Height: 18
+    Order: 873
+    Base experience: 159
+
+753. fomantis
+    Weight: 15
+    Height: 3
+    Order: 874
+    Base experience: 50
+
+754. lurantis
+    Weight: 185
+    Height: 9
+    Order: 875
+    Base experience: 168
+
+755. morelull
+    Weight: 15
+    Height: 2
+    Order: 877
+    Base experience: 57
+
+756. shiinotic
+    Weight: 115
+    Height: 10
+    Order: 878
+    Base experience: 142
+
+757. salandit
+    Weight: 48
+    Height: 6
+    Order: 879
+    Base experience: 64
+
+758. salazzle
+    Weight: 222
+    Height: 12
+    Order: 880
+    Base experience: 168
+
+759. stufful
+    Weight: 68
+    Height: 5
+    Order: 882
+    Base experience: 68
+
+760. bewear
+    Weight: 1350
+    Height: 21
+    Order: 883
+    Base experience: 175
+
+761. bounsweet
+    Weight: 32
+    Height: 3
+    Order: 884
+    Base experience: 42
+
+762. steenee
+    Weight: 82
+    Height: 7
+    Order: 885
+    Base experience: 102
+
+763. tsareena
+    Weight: 214
+    Height: 12
+    Order: 886
+    Base experience: 230
+
+764. comfey
+    Weight: 3
+    Height: 1
+    Order: 887
+    Base experience: 170
+
+765. oranguru
+    Weight: 760
+    Height: 15
+    Order: 888
+    Base experience: 172
+
+766. passimian
+    Weight: 828
+    Height: 20
+    Order: 889
+    Base experience: 172
+
+767. wimpod
+    Weight: 120
+    Height: 5
+    Order: 890
+    Base experience: 46
+
+768. golisopod
+    Weight: 1080
+    Height: 20
+    Order: 891
+    Base experience: 186
+
+769. sandygast
+    Weight: 700
+    Height: 5
+    Order: 892
+    Base experience: 64
+
+770. palossand
+    Weight: 2500
+    Height: 13
+    Order: 893
+    Base experience: 168
+
+771. pyukumuku
+    Weight: 12
+    Height: 3
+    Order: 894
+    Base experience: 144
+
+772. type-null
+    Weight: 1205
+    Height: 19
+    Order: 895
+    Base experience: 107
+
+773. silvally
+    Weight: 1005
+    Height: 23
+    Order: 896
+    Base experience: 114
+
+774. minior-red-meteor
+    Weight: 400
+    Height: 3
+    Order: 897
+    Base experience: 154
+
+775. komala
+    Weight: 199
+    Height: 4
+    Order: 911
+    Base experience: 168
+
+776. turtonator
+    Weight: 2120
+    Height: 20
+    Order: 912
+    Base experience: 170
+
+777. togedemaru
+    Weight: 33
+    Height: 3
+    Order: 913
+    Base experience: 152
+
+778. mimikyu-disguised
+    Weight: 7
+    Height: 2
+    Order: 914
+    Base experience: 167
+
+779. bruxish
+    Weight: 190
+    Height: 9
+    Order: 918
+    Base experience: 166
+
+780. drampa
+    Weight: 1850
+    Height: 30
+    Order: 919
+    Base experience: 170
+
+781. dhelmise
+    Weight: 2100
+    Height: 39
+    Order: 920
+    Base experience: 181
+
+782. jangmo-o
+    Weight: 297
+    Height: 6
+    Order: 921
+    Base experience: 60
+
+783. hakamo-o
+    Weight: 470
+    Height: 12
+    Order: 922
+    Base experience: 147
+
+784. kommo-o
+    Weight: 782
+    Height: 16
+    Order: 923
+    Base experience: 270
+
+785. tapu-koko
+    Weight: 205
+    Height: 18
+    Order: 925
+    Base experience: 114
+
+786. tapu-lele
+    Weight: 186
+    Height: 12
+    Order: 926
+    Base experience: 114
+
+787. tapu-bulu
+    Weight: 455
+    Height: 19
+    Order: 927
+    Base experience: 114
+
+788. tapu-fini
+    Weight: 212
+    Height: 13
+    Order: 928
+    Base experience: 114
+
+789. cosmog
+    Weight: 1
+    Height: 2
+    Order: 929
+    Base experience: 40
+
+790. cosmoem
+    Weight: 9999
+    Height: 1
+    Order: 930
+    Base experience: 80
+
+791. solgaleo
+    Weight: 2300
+    Height: 34
+    Order: 931
+    Base experience: 136
+
+792. lunala
+    Weight: 1200
+    Height: 40
+    Order: 932
+    Base experience: 136
+
+793. nihilego
+    Weight: 555
+    Height: 12
+    Order: 933
+    Base experience: 114
+
+794. buzzwole
+    Weight: 3336
+    Height: 24
+    Order: 934
+    Base experience: 114
+
+795. pheromosa
+    Weight: 250
+    Height: 18
+    Order: 935
+    Base experience: 114
+
+796. xurkitree
+    Weight: 1000
+    Height: 38
+    Order: 936
+    Base experience: 114
+
+797. celesteela
+    Weight: 9999
+    Height: 92
+    Order: 937
+    Base experience: 114
+
+798. kartana
+    Weight: 1
+    Height: 3
+    Order: 938
+    Base experience: 114
+
+799. guzzlord
+    Weight: 8880
+    Height: 55
+    Order: 939
+    Base experience: 114
+
+800. necrozma
+    Weight: 2300
+    Height: 24
+    Order: 940
+    Base experience: 120
+
+801. magearna
+    Weight: 805
+    Height: 10
+    Order: 941
+    Base experience: 120
+
+802. marshadow
+    Weight: 222
+    Height: 7
+    Order: 943
+    Base experience: 120
+
+10001. deoxys-attack
+    Weight: 608
+    Height: 17
+    Order: 489
+    Base experience: 270
+
+10002. deoxys-defense
+    Weight: 608
+    Height: 17
+    Order: 490
+    Base experience: 270
+
+10003. deoxys-speed
+    Weight: 608
+    Height: 17
+    Order: 491
+    Base experience: 270
+
+10004. wormadam-sandy
+    Weight: 65
+    Height: 5
+    Order: 517
+    Base experience: 148
+
+10005. wormadam-trash
+    Weight: 65
+    Height: 5
+    Order: 518
+    Base experience: 148
+
+10006. shaymin-sky
+    Weight: 52
+    Height: 4
+    Order: 581
+    Base experience: 270
+
+10007. giratina-origin
+    Weight: 6500
+    Height: 69
+    Order: 575
+    Base experience: 306
+
+10008. rotom-heat
+    Weight: 3
+    Height: 3
+    Order: 562
+    Base experience: 182
+
+10009. rotom-wash
+    Weight: 3
+    Height: 3
+    Order: 563
+    Base experience: 182
+
+10010. rotom-frost
+    Weight: 3
+    Height: 3
+    Order: 564
+    Base experience: 182
+
+10011. rotom-fan
+    Weight: 3
+    Height: 3
+    Order: 565
+    Base experience: 182
+
+10012. rotom-mow
+    Weight: 3
+    Height: 3
+    Order: 566
+    Base experience: 182
+
+10013. castform-sunny
+    Weight: 8
+    Height: 3
+    Order: 439
+    Base experience: 147
+
+10014. castform-rainy
+    Weight: 8
+    Height: 3
+    Order: 440
+    Base experience: 147
+
+10015. castform-snowy
+    Weight: 8
+    Height: 3
+    Order: 441
+    Base experience: 147
+
+10016. basculin-blue-striped
+    Weight: 180
+    Height: 10
+    Order: 641
+    Base experience: 161
+
+10017. darmanitan-zen
+    Weight: 929
+    Height: 13
+    Order: 647
+    Base experience: 189
+
+10018. meloetta-pirouette
+    Weight: 65
+    Height: 6
+    Order: 747
+    Base experience: 270
+
+10019. tornadus-therian
+    Weight: 630
+    Height: 14
+    Order: 734
+    Base experience: 261
+
+10020. thundurus-therian
+    Weight: 610
+    Height: 30
+    Order: 736
+    Base experience: 261
+
+10021. landorus-therian
+    Weight: 680
+    Height: 13
+    Order: 740
+    Base experience: 270
+
+10022. kyurem-black
+    Weight: 3250
+    Height: 33
+    Order: 743
+    Base experience: 315
+
+10023. kyurem-white
+    Weight: 3250
+    Height: 36
+    Order: 742
+    Base experience: 315
+
+10024. keldeo-resolute
+    Weight: 485
+    Height: 14
+    Order: 745
+    Base experience: 261
+
+10025. meowstic-female
+    Weight: 85
+    Height: 6
+    Order: 781
+    Base experience: 163
+
+10026. aegislash-blade
+    Weight: 530
+    Height: 17
+    Order: 785
+    Base experience: 234
+
+10027. pumpkaboo-small
+    Weight: 35
+    Height: 3
+    Order: 814
+    Base experience: 67
+
+10028. pumpkaboo-large
+    Weight: 75
+    Height: 5
+    Order: 815
+    Base experience: 67
+
+10029. pumpkaboo-super
+    Weight: 150
+    Height: 8
+    Order: 816
+    Base experience: 67
+
+10030. gourgeist-small
+    Weight: 95
+    Height: 7
+    Order: 818
+    Base experience: 173
+
+10031. gourgeist-large
+    Weight: 140
+    Height: 11
+    Order: 819
+    Base experience: 173
+
+10032. gourgeist-super
+    Weight: 390
+    Height: 17
+    Order: 820
+    Base experience: 173
+
+10033. venusaur-mega
+    Weight: 1555
+    Height: 24
+    Order: 4
+    Base experience: 281
+
+10034. charizard-mega-x
+    Weight: 1105
+    Height: 17
+    Order: 8
+    Base experience: 285
+
+10035. charizard-mega-y
+    Weight: 1005
+    Height: 17
+    Order: 9
+    Base experience: 285
+
+10036. blastoise-mega
+    Weight: 1011
+    Height: 16
+    Order: 13
+    Base experience: 284
+
+10037. alakazam-mega
+    Weight: 480
+    Height: 12
+    Order: 96
+    Base experience: 270
+
+10038. gengar-mega
+    Weight: 405
+    Height: 14
+    Order: 134
+    Base experience: 270
+
+10039. kangaskhan-mega
+    Weight: 1000
+    Height: 22
+    Order: 167
+    Base experience: 207
+
+10040. pinsir-mega
+    Weight: 590
+    Height: 17
+    Order: 189
+    Base experience: 210
+
+10041. gyarados-mega
+    Weight: 3050
+    Height: 65
+    Order: 193
+    Base experience: 224
+
+10042. aerodactyl-mega
+    Weight: 790
+    Height: 21
+    Order: 213
+    Base experience: 215
+
+10043. mewtwo-mega-x
+    Weight: 1270
+    Height: 23
+    Order: 223
+    Base experience: 351
+
+10044. mewtwo-mega-y
+    Weight: 330
+    Height: 15
+    Order: 224
+    Base experience: 351
+
+10045. ampharos-mega
+    Weight: 615
+    Height: 14
+    Order: 253
+    Base experience: 275
+
+10046. scizor-mega
+    Weight: 1250
+    Height: 20
+    Order: 179
+    Base experience: 210
+
+10047. heracross-mega
+    Weight: 625
+    Height: 17
+    Order: 288
+    Base experience: 210
+
+10048. houndoom-mega
+    Weight: 495
+    Height: 19
+    Order: 307
+    Base experience: 210
+
+10049. tyranitar-mega
+    Weight: 2550
+    Height: 25
+    Order: 319
+    Base experience: 315
+
+10050. blaziken-mega
+    Weight: 520
+    Height: 19
+    Order: 330
+    Base experience: 284
+
+10051. gardevoir-mega
+    Weight: 484
+    Height: 16
+    Order: 357
+    Base experience: 278
+
+10052. mawile-mega
+    Weight: 235
+    Height: 10
+    Order: 382
+    Base experience: 168
+
+10053. aggron-mega
+    Weight: 3950
+    Height: 22
+    Order: 386
+    Base experience: 284
+
+10054. medicham-mega
+    Weight: 315
+    Height: 13
+    Order: 389
+    Base experience: 179
+
+10055. manectric-mega
+    Weight: 440
+    Height: 18
+    Order: 392
+    Base experience: 201
+
+10056. banette-mega
+    Weight: 130
+    Height: 12
+    Order: 445
+    Base experience: 194
+
+10057. absol-mega
+    Weight: 490
+    Height: 12
+    Order: 453
+    Base experience: 198
+
+10058. garchomp-mega
+    Weight: 950
+    Height: 19
+    Order: 545
+    Base experience: 315
+
+10059. lucario-mega
+    Weight: 575
+    Height: 13
+    Order: 548
+    Base experience: 219
+
+10060. abomasnow-mega
+    Weight: 1850
+    Height: 27
+    Order: 560
+    Base experience: 208
+
+10061. floette-eternal
+    Weight: 9
+    Height: 2
+    Order: 772
+    Base experience: 243
+
+10062. latias-mega
+    Weight: 520
+    Height: 18
+    Order: 478
+    Base experience: 315
+
+10063. latios-mega
+    Weight: 700
+    Height: 23
+    Order: 480
+    Base experience: 315
+
+10064. swampert-mega
+    Weight: 1020
+    Height: 19
+    Order: 334
+    Base experience: 286
+
+10065. sceptile-mega
+    Weight: 552
+    Height: 19
+    Order: 326
+    Base experience: 284
+
+10066. sableye-mega
+    Weight: 1610
+    Height: 5
+    Order: 380
+    Base experience: 168
+
+10067. altaria-mega
+    Weight: 206
+    Height: 15
+    Order: 421
+    Base experience: 207
+
+10068. gallade-mega
+    Weight: 564
+    Height: 16
+    Order: 359
+    Base experience: 278
+
+10069. audino-mega
+    Weight: 320
+    Height: 15
+    Order: 621
+    Base experience: 425
+
+10070. sharpedo-mega
+    Weight: 1303
+    Height: 25
+    Order: 404
+    Base experience: 196
+
+10071. slowbro-mega
+    Weight: 1200
+    Height: 20
+    Order: 115
+    Base experience: 207
+
+10072. steelix-mega
+    Weight: 7400
+    Height: 105
+    Order: 137
+    Base experience: 214
+
+10073. pidgeot-mega
+    Weight: 505
+    Height: 22
+    Order: 24
+    Base experience: 261
+
+10074. glalie-mega
+    Weight: 3502
+    Height: 21
+    Order: 456
+    Base experience: 203
+
+10075. diancie-mega
+    Weight: 278
+    Height: 11
+    Order: 832
+    Base experience: 315
+
+10076. metagross-mega
+    Weight: 9429
+    Height: 25
+    Order: 473
+    Base experience: 315
+
+10077. kyogre-primal
+    Weight: 4300
+    Height: 98
+    Order: 482
+    Base experience: 347
+
+10078. groudon-primal
+    Weight: 9997
+    Height: 50
+    Order: 484
+    Base experience: 347
+
+10079. rayquaza-mega
+    Weight: 3920
+    Height: 108
+    Order: 486
+    Base experience: 351
+
+10080. pikachu-rock-star
+    Weight: 60
+    Height: 4
+    Order: 37
+    Base experience: 112
+
+10081. pikachu-belle
+    Weight: 60
+    Height: 4
+    Order: 38
+    Base experience: 112
+
+10082. pikachu-pop-star
+    Weight: 60
+    Height: 4
+    Order: 39
+    Base experience: 112
+
+10083. pikachu-phd
+    Weight: 60
+    Height: 4
+    Order: 40
+    Base experience: 112
+
+10084. pikachu-libre
+    Weight: 60
+    Height: 4
+    Order: 41
+    Base experience: 112
+
+10085. pikachu-cosplay
+    Weight: 60
+    Height: 4
+    Order: 36
+    Base experience: 112
+
+10086. hoopa-unbound
+    Weight: 4900
+    Height: 65
+    Order: 834
+    Base experience: 306
+
+10087. camerupt-mega
+    Weight: 3205
+    Height: 25
+    Order: 409
+    Base experience: 196
+
+10088. lopunny-mega
+    Weight: 283
+    Height: 13
+    Order: 533
+    Base experience: 203
+
+10089. salamence-mega
+    Weight: 1126
+    Height: 18
+    Order: 469
+    Base experience: 315
+
+10090. beedrill-mega
+    Weight: 405
+    Height: 14
+    Order: 20
+    Base experience: 223
+
+10091. rattata-alola
+    Weight: 38
+    Height: 3
+    Order: 26
+    Base experience: 51
+
+10092. raticate-alola
+    Weight: 255
+    Height: 7
+    Order: 28
+    Base experience: 145
+
+10093. raticate-totem-alola
+    Weight: 1050
+    Height: 14
+    Order: 29
+    Base experience: 145
+
+10094. pikachu-original-cap
+    Weight: 60
+    Height: 4
+    Order: 36
+    Base experience: 112
+
+10095. pikachu-hoenn-cap
+    Weight: 60
+    Height: 4
+    Order: 37
+    Base experience: 112
+
+10096. pikachu-sinnoh-cap
+    Weight: 60
+    Height: 4
+    Order: 38
+    Base experience: 112
+
+10097. pikachu-unova-cap
+    Weight: 60
+    Height: 4
+    Order: 39
+    Base experience: 112
+
+10098. pikachu-kalos-cap
+    Weight: 60
+    Height: 4
+    Order: 40
+    Base experience: 112
+
+10099. pikachu-alola-cap
+    Weight: 60
+    Height: 4
+    Order: 41
+    Base experience: 112
+
+10100. raichu-alola
+    Weight: 210
+    Height: 7
+    Order: 43
+    Base experience: 218
+
+10101. sandshrew-alola
+    Weight: 400
+    Height: 7
+    Order: 45
+    Base experience: 60
+
+10102. sandslash-alola
+    Weight: 550
+    Height: 12
+    Order: 47
+    Base experience: 158
+
+10103. vulpix-alola
+    Weight: 99
+    Height: 6
+    Order: 58
+    Base experience: 60
+
+10104. ninetales-alola
+    Weight: 199
+    Height: 11
+    Order: 60
+    Base experience: 177
+
+10105. diglett-alola
+    Weight: 10
+    Height: 2
+    Order: 76
+    Base experience: 53
+
+10106. dugtrio-alola
+    Weight: 666
+    Height: 7
+    Order: 78
+    Base experience: 149
+
+10107. meowth-alola
+    Weight: 42
+    Height: 4
+    Order: 80
+    Base experience: 58
+
+10108. persian-alola
+    Weight: 330
+    Height: 11
+    Order: 82
+    Base experience: 154
+
+10109. geodude-alola
+    Weight: 203
+    Height: 4
+    Order: 106
+    Base experience: 60
+
+10110. graveler-alola
+    Weight: 1100
+    Height: 10
+    Order: 108
+    Base experience: 137
+
+10111. golem-alola
+    Weight: 3160
+    Height: 17
+    Order: 110
+    Base experience: 223
+
+10112. grimer-alola
+    Weight: 420
+    Height: 7
+    Order: 126
+    Base experience: 65
+
+10113. muk-alola
+    Weight: 520
+    Height: 10
+    Order: 128
+    Base experience: 175
+
+10114. exeggutor-alola
+    Weight: 4156
+    Height: 109
+    Order: 146
+    Base experience: 186
+
+10115. marowak-alola
+    Weight: 340
+    Height: 10
+    Order: 149
+    Base experience: 149
+
+10116. greninja-battle-bond
+    Weight: 400
+    Height: 15
+    Order: 758
+    Base experience: 239
+
+10117. greninja-ash
+    Weight: 400
+    Height: 15
+    Order: 759
+    Base experience: 288
+
+10118. zygarde-10
+    Weight: 335
+    Height: 12
+    Order: 828
+    Base experience: 219
+
+10119. zygarde-50
+    Weight: 3050
+    Height: 50
+    Order: 829
+    Base experience: 270
+
+10120. zygarde-complete
+    Weight: 6100
+    Height: 45
+    Order: 830
+    Base experience: 319
+
+10121. gumshoos-totem
+    Weight: 600
+    Height: 14
+    Order: 850
+    Base experience: 146
+
+10122. vikavolt-totem
+    Weight: 1475
+    Height: 26
+    Order: 854
+    Base experience: 225
+
+10123. oricorio-pom-pom
+    Weight: 34
+    Height: 6
+    Order: 858
+    Base experience: 167
+
+10124. oricorio-pau
+    Weight: 34
+    Height: 6
+    Order: 859
+    Base experience: 167
+
+10125. oricorio-sensu
+    Weight: 34
+    Height: 6
+    Order: 860
+    Base experience: 167
+
