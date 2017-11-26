@@ -1,0 +1,8 @@
+Information about SA league:
+    ID: 456
+    Title: Serie A 2017/18
+    Year: 2017
+    Current tour: 14
+    Number of tours: 38
+    Number of teams: 20
+    Number of games: 380
