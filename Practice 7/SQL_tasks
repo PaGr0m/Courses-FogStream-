@@ -1,0 +1,5 @@
+﻿Задание 1. SELECT model_id, speed, hd FROM PC WHERE PC.Price < money(500);
+Задание 2. ﻿SELECT maker FROM product WHERE type = 'Printer';
+Задание 3. ﻿SELECT model_id, ram, screen FROM Laptop WHERE Laptop.Price > money(1000);
+Задание 4. ﻿SELECT * FROM Printer WHERE Printer.Color = 'y';
+Задание 5. ﻿SELECT model_id, speed, hd FROM PC WHERE (PC.Cd = '12x' OR PC.Cd = '24x') AND (PC.Price < money(600));

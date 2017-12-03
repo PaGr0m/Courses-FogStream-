@@ -1,0 +1,1 @@
+﻿CREATE SEQUENCE ID_Code_Printer;
