@@ -169,6 +169,8 @@ def main():
             get_football_team(URL_FOOTBALL_TEAM)
         elif case == "4":
             get_pokemons(URL_POKEMONS)
+        elif case == "5":
+            get_json_object("https://api.github.com/users")
         elif case == "0":
             exit()
         else:

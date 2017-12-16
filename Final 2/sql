@@ -1,0 +1,39 @@
+CREATE TABLE Users (
+	Login Text NOT NULL primary key,
+	URL Text,
+	Repositories Text,
+	Count_of_repositories INT);
+
+-----------------------------------------------------------
+
+CREATE TABLE Tags (
+	Tag Text NOT NULL primary key);
+
+-----------------------------------------------------------
+
+CREATE TABLE Repositories (
+	Name Text NOT NULL primary key,
+	Tag Text,
+	Star INT,
+	Update_time Date,
+	Login_user Text,
+	Tag_repository Text,
+	FOREIGN KEY (Login_user) REFERENCES Users(Login),
+	FOREIGN KEY (Tag_repository) REFERENCES Tags(Tag));
+
+
+-------------------------------------------------------
+
+1) SELECT Full_name, Name FROM Repositories WHERE Tag = {}
+
+2) SELECT Name, Star, Update_time FROM Repositories
+	WHERE update_time > '2017-10'
+	ORDER BY Star DESC;
+
+3) SELECT Tag_repository, count(Name) FROM Repositories
+	GROUP BY Tag_repository
+	ORDER BY count(Name) DESC
+	LIMIT 10
+
+4) SELECT Login, Count_of_repositories FROM Users
+	ORDER BY Count_of_repositories DESC
