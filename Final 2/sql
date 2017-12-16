@@ -26,8 +26,9 @@ CREATE TABLE Repositories (
 
 1) SELECT Full_name, Name FROM Repositories WHERE Tag = {}
 
-2) SELECT Name, Star, Update_time FROM Repositories
-	WHERE update_time > '2017-10'
+2) SELECT Full_name, Star, Update_time FROM Repositories
+	WHERE update_time 
+		BETWEEN '2016-12-9 19:06:31.065083' AND '2017-12-16 19:06:31.065083'
 	ORDER BY Star DESC;
 
 3) SELECT Tag_repository, count(Name) FROM Repositories
