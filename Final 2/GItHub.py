@@ -1,8 +1,9 @@
 import psycopg2 as db
-import urllib.request
 import urllib
+# import urllib.request
 import json
 import datetime
+import argparse
 
 
 def connect_to_database():
@@ -83,19 +84,20 @@ def get_json_object(url):
     try:
         response = urllib.request.urlopen(url)
     except urllib.request.URLError:
-        print("Нет интернета!")
+        print("Query limitted")
         exit()
     json_obj = json.loads(response.read().decode())
 
     return json_obj
 
 
-def show_task_1(tag):
+def show_task_1(tag, time_1, time_2):
     cur.execute("""
         SELECT Full_name, Name, Tag
         FROM Repositories
-        WHERE Tag = '{}'
-        """.format(tag))
+        WHERE Tag = '{}' AND Update_time 
+        BETWEEN '{}' AND '{}'
+        """.format(tag, time_1, time_2))
     connect.commit()
     show_data()
 
@@ -141,33 +143,48 @@ def show_data():
         print(row)
 
 
+def create_argparse():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--task")
+    parser.add_argument("--tag")
+    parser.add_argument("--add")
+    parser.add_argument("--time1")
+    parser.add_argument("--time2")
+
+    return parser
+
+
 def main():
     URL_USERS = "https://api.github.com/users"
     URL_USERS_2 = "https://api.github.com/users?page=2&per_page=70"
     connect_to_database()
 
-    case = input("Check number ")
-    if (case == "0"):
-        create_query(URL_USERS_2)
-    elif (case == "1"):
-        tag = input("Enter the tag ")
-        show_task_1(tag)
-    elif (case == "2"):
+    # case = input("Check number ")
+    # if (case == "0"):
+    #     create_query("https://api.github.com/users?since=200")
+
+
+    parser = create_argparse()
+    namespace = parser.parse_args()
+
+    if namespace.task == "1":
+        show_task_1(namespace.tag, namespace.time1, namespace.time2)
+
+    elif namespace.task == "2":
         current_date = datetime.datetime.today()
         week_ago = current_date.replace(day=current_date.day - 7)
         show_task_2(week_ago, current_date)
-    elif (case == "3"):
+
+    elif namespace.task == "3":
         show_task_3()
-    elif(case == "4"):
+
+    elif namespace.task == "4":
         show_task_4()
+
+    elif namespace.add == "add":
+        create_query("https://api.github.com/users?since=135")
+
 
 
 if __name__ == "__main__":
     main()
-
-"""
-исклчения psycopg2.IntegrityError: duplicate key value violates unique constraint "users_pkey"
-psycopg2.OperationalError: FATAL:  database "GitHub1" does not exist
-
-psycopg2.Error
-"""
