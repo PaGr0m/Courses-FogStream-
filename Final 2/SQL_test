@@ -6,11 +6,6 @@ CREATE TABLE Users (
 
 -----------------------------------------------------------
 
-CREATE TABLE Tags (
-	Tag Text NOT NULL primary key);
-
------------------------------------------------------------
-
 CREATE TABLE Repositories (
 	Name Text NOT NULL primary key,
 	Tag Text,

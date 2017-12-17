@@ -80,7 +80,7 @@ def main():
     answer = input("Do you want add data ? (Y/N) ")
 
     if (answer == "Y" or answer == "y"):
-        URL = "https://api.github.com/users?since=500"
+        URL = "https://api.github.com/users?since=700"
         create_query(URL)
 
 
