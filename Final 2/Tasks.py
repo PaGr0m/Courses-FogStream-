@@ -5,13 +5,13 @@ from Connect_to_psql import connect_to_database
 
 def task_1(tag, time_1, time_2):
     """
-    Получаем список репозиториев по заданному хэш-тэгу
-    в заданный период времени
+    Get the list of repositories for a given hashtag
+    in a given period of time
 
-    :param tag: хэш-тэг по которому происходит поиск
-    :param time_1: левая граница временного диапазона
-    :param time_2: правая граница временного диапазона
-    :return: таблица с полями: полное имя, имя, хэш-тэг, время/дата
+    :param tag: hashtag on which the search is performed
+    :param time_1: left border of time range
+    :param time_2: right border of time range
+    :return: table with fields: full name, name, hashtag, time/date
     """
 
     cur.execute("""
@@ -26,11 +26,11 @@ def task_1(tag, time_1, time_2):
 
 def task_2(first_date, second_date):
     """
-    Получаем список популярных репозиториев за неделю
+    Get a list of popular repositories for the week
 
-    :param first_date: дата и время неделю назад
-    :param second_date: текущая дата и время
-    :return: таблица с полями: полное имя, количество звезд, время/дата
+    :param first_date: date and time a week ago
+    :param second_date: current date and time
+    :return: table with fields: full name, number of stars, time/date
     """
 
     cur.execute("""
@@ -46,10 +46,10 @@ def task_2(first_date, second_date):
 
 def task_3():
     """
-    Получаем топ 10 популярных хэш-тэгов, т.е.
-    те у которых больше всего репозиториев
+    We get the top 10 popular hashtags,
+    i.e. those with the most repositories
 
-    :return: таблица с полями: хэш-тэг, количество репозиториев
+    :return: table with fields: hashtag, number of repositories
     """
 
     cur.execute("""
@@ -65,9 +65,10 @@ def task_3():
 
 def task_4():
     """
-    Получаем список самых активных пользователей,
-    те у которых больше всего репозиториев
-    :return:
+    We get the list of the most active users,
+    those with the most repositories
+
+    :return: table with fields: user login, number of repositories
     """
 
     cur.execute("""
@@ -81,8 +82,8 @@ def task_4():
 
 def show_task_1():
     """
-    Вывод в таблицу результатов 1 задания
-    :return: таблица
+    Output to the results table 1 of the task
+    :return: table
     """
 
     print("+" + "-"*40 + "+" + "-"*30 + "+" + "-"*15 + "+" + "-"*19 + "+")
@@ -98,8 +99,8 @@ def show_task_1():
 
 def show_task_2():
     """
-    Вывод в таблицу результатов 2 задания
-    :return: таблица
+    Output to the results table 2 of the task
+    :return: table
     """
 
     print("+" + "-"*35 + "+" + "-"*15 + "+" + "-"*19 + "+")
@@ -115,8 +116,8 @@ def show_task_2():
 
 def show_task_3():
     """
-    Вывод в таблицу результатов 3 задания
-    :return: таблица
+    Output to the results table 3 of the task
+    :return: table
     """
 
     print("+" + "-"*15 + "+" + "-"*15 + "+")
@@ -132,8 +133,8 @@ def show_task_3():
 
 def show_task_4():
     """
-    Вывод в таблицу результатов 4 задания
-    :return: таблица
+    Output to the results table 4 of the task
+    :return: table
     """
 
     print("+" + "-"*35 + "+" + "-"*25 + "+")
@@ -149,8 +150,8 @@ def show_task_4():
 
 def create_argparse():
     """
-    Создание парсера, добавление аргументов для скрипта
-    :return: parser -> парсер аргументов (объект класса argparse)
+    create a parser, add arguments to the script
+    :return: argument parser (argparse class object)
     """
 
     parser = argparse.ArgumentParser()

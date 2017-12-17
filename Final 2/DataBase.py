@@ -6,10 +6,10 @@ import json
 
 def insert_to_users(object):
     """
-    Добавление данных в таблицу Users
+    Adding Data to the Users Table
 
-    :param object: json объект, хранящий данные о пользователях
-    :return: данные передаются в БД Postgresql
+    :param object: json object that stores user data
+    :return: data is transferred to the Postgresql database
     """
 
     try:
@@ -26,10 +26,10 @@ def insert_to_users(object):
 
 def insert_to_repositories(object):
     """
-    Добавление данных в таблицу Repositories
+    Adding data to the Repositories table
 
-    :param object: json объект, хранящий данные о пользователях
-    :return: данные передаются в БД Postgresql
+    :param object: json object that stores user data
+    :return: data is transferred to the Postgresql database
     """
 
     try:
@@ -51,11 +51,12 @@ def insert_to_repositories(object):
 
 def update_to_users(object, count):
     """
-    Обновление даных в таблице Users для поля Count_of_repositories
+    Updating the data in the Users table for
+    the Count_of_repositories field
 
-    :param object: json объект, хранящий данные о пользователях
-    :param count: количество репозиториев
-    :return: данные передаются в БД Postgresql
+    :param object: json object that stores user data
+    :param count: number of repositories
+    :return: data is transferred to the Postgresql database
     """
 
     try:
@@ -68,10 +69,10 @@ def update_to_users(object, count):
 
 def create_query(url):
     """
-    Получение json объекта, создание запросов SQL
+    Getting the json object, creating SQL queries
 
-    :param url: url ссылка
-    :return: данные передаются в БД Postgresql
+    :param url: url link
+    :return: data is transferred to the Postgresql database
     """
 
     user_object = get_json_object(url)
@@ -91,9 +92,10 @@ def create_query(url):
 
 def get_json_object(url):
     """
-    Создание json оъекта по url ссылке
-    :param url: url ссылка
-    :return: объект формата json
+    Creating a json object by url
+
+    :param url: url link
+    :return: json format object
     """
 
     try:
@@ -115,7 +117,7 @@ def main():
     answer = input("Do you want add data ? (Y/N) ")
 
     if (answer == "Y" or answer == "y"):
-        URL = "https://api.github.com/users?since=800"
+        URL = "https://api.github.com/users?since=900"
         create_query(URL)
 
 

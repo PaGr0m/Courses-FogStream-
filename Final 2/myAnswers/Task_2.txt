@@ -1,0 +1,36 @@
++-----------------------------------+---------------+-------------------+
+|                          Full_name|           Star|        Update_time|
++-----------------------------------+---------------+-------------------+
+|                      defunkt/dotjs|           3196|2017-12-14 21:46:44|
+|                    mojombo/chronic|           2787|2017-12-14 03:06:32|
+|                        mojombo/god|           2074|2017-12-14 08:09:36|
+|                    stevedekorte/io|           1844|2017-12-16 12:59:48|
+|               codahale/bcrypt-ruby|           1262|2017-12-16 14:27:38|
+|                         atmos/camo|           1081|2017-12-15 18:56:03|
+|                      defunkt/cijoe|           1065|2017-12-11 15:54:39|
+|              evanphx/benchmark-ips|           1028|2017-12-14 08:01:25|
+|                  seaofclouds/tweet|            877|2017-12-12 18:47:58|
+|            macournoyer/neuralconvo|            675|2017-12-15 15:59:10|
+|                defunkt/coffee-mode|            562|2017-12-13 07:41:43|
+|   mojombo/github-flavored-markdown|            173|2017-12-14 12:05:02|
+|                pclouds/busybox-w32|            164|2017-12-16 07:30:48|
+|                    mojombo/bertrpc|            154|2017-12-13 21:45:15|
+|              benhoskings/dot-files|            128|2017-12-15 01:47:11|
+|               stevedekorte/basekit|            124|2017-12-14 07:47:21|
+|                josh/overcast-sonos|            116|2017-12-13 22:26:23|
+|                     lukas/ml-class|            115|2017-12-14 15:05:53|
+|                    lmarlow/gemedit|            106|2017-12-13 12:03:28|
+|                 benschwarz/am-grid|             84|2017-12-12 21:15:42|
+|                   mojombo/bert.erl|             80|2017-12-15 13:36:09|
+|                         josh/Aware|             79|2017-12-15 22:50:24|
+|             ianloic/dreamhost-ddns|             40|2017-12-14 15:07:23|
+|                        josh/js-edn|             15|2017-12-11 15:55:05|
+| jonmagic/copy-excel-paste-markdown|              9|2017-12-16 14:23:02|
+|       wayneeseguin/exdata-project2|              2|2017-12-15 01:44:48|
+|                jredville/dot-files|              1|2017-12-15 03:46:25|
+|                cmrichards/Kalendae|              0|2017-12-11 13:58:56|
+|               denis/kochiku-worker|              0|2017-12-12 23:13:50|
+|             banderson623/elementor|              0|2017-12-15 03:51:39|
+|                 japj/codeformatter|              0|2017-12-15 21:01:55|
++-----------------------------------+---------------+-------------------+
+
