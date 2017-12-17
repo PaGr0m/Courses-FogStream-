@@ -4,6 +4,16 @@ from Connect_to_psql import connect_to_database
 
 
 def task_1(tag, time_1, time_2):
+    """
+    Получаем список репозиториев по заданному хэш-тэгу
+    в заданный период времени
+
+    :param tag: хэш-тэг по которому происходит поиск
+    :param time_1: левая граница временного диапазона
+    :param time_2: правая граница временного диапазона
+    :return: таблица с полями: полное имя, имя, хэш-тэг, время/дата
+    """
+
     cur.execute("""
         SELECT Full_name, Name, Tag, Update_time
         FROM Repositories
@@ -15,6 +25,14 @@ def task_1(tag, time_1, time_2):
 
 
 def task_2(first_date, second_date):
+    """
+    Получаем список популярных репозиториев за неделю
+
+    :param first_date: дата и время неделю назад
+    :param second_date: текущая дата и время
+    :return: таблица с полями: полное имя, количество звезд, время/дата
+    """
+
     cur.execute("""
         SELECT Full_name, Star, Update_time 
         FROM Repositories
@@ -27,6 +45,13 @@ def task_2(first_date, second_date):
 
 
 def task_3():
+    """
+    Получаем топ 10 популярных хэш-тэгов, т.е.
+    те у которых больше всего репозиториев
+
+    :return: таблица с полями: хэш-тэг, количество репозиториев
+    """
+
     cur.execute("""
         SELECT Tag, count(Full_name) 
         FROM Repositories
@@ -39,6 +64,12 @@ def task_3():
 
 
 def task_4():
+    """
+    Получаем список самых активных пользователей,
+    те у которых больше всего репозиториев
+    :return:
+    """
+
     cur.execute("""
         SELECT Login, Count_of_repositories 
         FROM Users
@@ -49,6 +80,11 @@ def task_4():
 
 
 def show_task_1():
+    """
+    Вывод в таблицу результатов 1 задания
+    :return: таблица
+    """
+
     print("+" + "-"*40 + "+" + "-"*30 + "+" + "-"*15 + "+" + "-"*19 + "+")
     print("|{:>40}|{:>30}|{:>15}|{:>19}|".format("Full_name", "Name", "Tag", "Update_time"))
     print("+" + "-"*40 + "+" + "-"*30 + "+" + "-"*15 + "+" + "-"*19 + "+")
@@ -61,6 +97,11 @@ def show_task_1():
 
 
 def show_task_2():
+    """
+    Вывод в таблицу результатов 2 задания
+    :return: таблица
+    """
+
     print("+" + "-"*35 + "+" + "-"*15 + "+" + "-"*19 + "+")
     print("|{:>35}|{:>15}|{:>19}|".format("Full_name", "Star", "Update_time"))
     print("+" + "-"*35 + "+" + "-"*15 + "+" + "-"*19 + "+")
@@ -73,6 +114,11 @@ def show_task_2():
 
 
 def show_task_3():
+    """
+    Вывод в таблицу результатов 3 задания
+    :return: таблица
+    """
+
     print("+" + "-"*15 + "+" + "-"*15 + "+")
     print("|{:>15}|{:>15}|".format("Tag", "Count"))
     print("+" + "-" * 15 + "+" + "-" * 15 + "+")
@@ -85,6 +131,11 @@ def show_task_3():
 
 
 def show_task_4():
+    """
+    Вывод в таблицу результатов 4 задания
+    :return: таблица
+    """
+
     print("+" + "-"*35 + "+" + "-"*25 + "+")
     print("|{:>35}|{:>25}|".format("Login", "Count_of_repositories"))
     print("+" + "-"*35 + "+" + "-"*25 + "+")
@@ -97,6 +148,11 @@ def show_task_4():
 
 
 def create_argparse():
+    """
+    Создание парсера, добавление аргументов для скрипта
+    :return: parser -> парсер аргументов (объект класса argparse)
+    """
+
     parser = argparse.ArgumentParser()
     parser.add_argument("--task")
     parser.add_argument("--tag")

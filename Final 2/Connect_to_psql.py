@@ -2,6 +2,12 @@ import psycopg2 as db
 
 
 def connect_to_database():
+    """
+    Устанавливается соединение с БД
+    :return: connect -> соединение
+             cur -> курсор
+    """
+
     DBNAME = "GitHub"
     USER = "postgres"
     HOST = "localhost"
