@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>Music</title>
+        {% load staticfiles%}
+        <link rel="stylesheet" href="/static/css/bootstrap.min.css" type="text/css">
+        <link rel="stylesheet" href="/static/css/style.css" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Sedgwick+Ave+Display" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="row">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-8">
+                <div class="disk"><h1>Song</h1></div>
+            </div>
+            <div class="col-sm-2"></div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-1" >
+                <div class="column"></div>
+            </div>
+            <div class="col-sm-6">
+                {% for song in songs %}
+                    <div>
+                        <p class="musician">{{song.musician}}</p>
+                        <p class="album">{{song.album}}</p>
+                        <p class="song">{{song.song}}</p>
+                    </div>
+                {% endfor %}
+            </div>
+            <div class="col-sm-1"><div class="column"></div></div>
+            <div class="col-sm-2"></div>
+
+        </div>
+    </body>
+</html>

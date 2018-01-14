@@ -1,0 +1,28 @@
+.disk{
+text-align: center;
+background: linear-gradient(to top, #ddf48b, #8bf4c8);
+height: 100px;
+padding: 10px;
+border-radius: 20px 20px 0px 0px;
+color: white;
+}
+.column{
+background: linear-gradient(to bottom, #ddf48b, white);
+min-height: 100%;
+max-height: 100%;
+position: relative;
+}
+.musician{
+font-size: 25px;
+font-family: 'Sedgwick Ave Display', cursive;
+}
+.album{
+font-size: 20px;
+font-family: 'Dosis', sans-serif;
+padding-left: 30px;
+}
+.song{
+font-size: 15px;
+font-family: 'Quicksand', sans-serif;
+padding-left:65px;
+}
