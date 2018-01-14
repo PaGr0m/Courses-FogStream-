@@ -24,25 +24,25 @@
         </div>
 
         <div class="row">
-            <div class="col-sm-2"></div>
-
+            <div class="col-sm-2"></div>cd
             <div class="col-sm-1"><div class="column"></div></div>
 
             <div class="col-sm-6">
-                <img src="{% static 'discography/image/line.png' %}" class="image">
-                    <div class="music">
-                        <!--#{% for song in songs %} -->
-                        <div class="text">
-                            <p class="musician">{{song.musician}}</p>
-                            <p class="album">{{song.album}}</p>
-                            <p class="song">♪{{song.song}}</p>
-                        </div>
-                        <!--    #{% endfor %} -->
+                <div class="music">
+                    <img src="{% static 'discography/image/line.png' %}" class="image">
+
+                    <!--#{% for song in songs %} -->
+                    <div class="text">
+                        <p class="musician">{{song.musician}}</p>
+                        <p class="album">{{song.album}}</p>
+                        <p class="song">♪{{song.song}}</p>
                     </div>
+                    <!--    #{% endfor %} -->
+
+                </div>
             </div>
 
             <div class="col-sm-1"><div class="column"></div></div>
-
             <div class="col-sm-2"></div>
         </div>
     </body>
