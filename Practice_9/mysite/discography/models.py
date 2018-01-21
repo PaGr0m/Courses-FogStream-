@@ -2,8 +2,8 @@ from django.db import models
 
 
 class Musician(models.Model):
-    musician_name = models.CharField(verbose_name="Исполнитель",
-                                     max_length=25)
+    name = models.CharField(verbose_name="Исполнитель",
+                            max_length=25)
     information = models.TextField(verbose_name="Информация",
                                    blank=True,
                                    null=True)
@@ -13,36 +13,36 @@ class Musician(models.Model):
         verbose_name_plural = "Исполнители"
 
     def __str__(self):
-        return self.musician_name
+        return self.name
 
 
 class Genre(models.Model):
-    genre_name = models.CharField(verbose_name="Жанр",
-                                  max_length=25)
+    name = models.CharField(verbose_name="Жанр",
+                            max_length=25)
 
     class Meta:
         verbose_name = "Жанр"
         verbose_name_plural = "Жанры"
 
     def __str__(self):
-        return self.genre_name
+        return self.name
 
 
 class Album(models.Model):
-    album_name = models.CharField(verbose_name="Альбом",
-                                  max_length=25)
+    name = models.CharField(verbose_name="Альбом",
+                            max_length=25)
 
     class Meta:
         verbose_name = "Альбом"
         verbose_name_plural = "Альбомы"
 
     def __str__(self):
-        return self.album_name
+        return self.name
 
 
 class Song(models.Model):
-    song_name = models.CharField(verbose_name="Песня",
-                                 max_length=25)
+    name = models.CharField(verbose_name="Песня",
+                            max_length=25)
     lyrics = models.TextField(verbose_name="Текст песни",
                               blank=True,
                               null=True)
@@ -68,4 +68,4 @@ class Song(models.Model):
         verbose_name_plural = "Песни"
 
     def __str__(self):
-        return self.song_name
+        return self.name

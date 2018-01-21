@@ -4,9 +4,9 @@ from .models import Album, Genre, Musician, Song
 
 
 class DiscographyAdmin(admin.ModelAdmin):
-    list_display = ["song_name", "musician", "album", "genre",]
+    list_display = ["name", "musician", "album", "genre",]
     list_filter = ["musician", "album",]
-    search_fields = ["song_name",]
+    search_fields = ["name",]
 
     class Meta:
         model = Song

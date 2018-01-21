@@ -17,7 +17,7 @@
         <div>
             {% for song in songs %}
             <li>
-                {{song.song_name}}
+                {{song.name}}
 
                 <a href="{% url 'arg_genre' song.genre %}">
                     ({{song.genre}})
