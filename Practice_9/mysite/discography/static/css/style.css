@@ -1,60 +1,103 @@
-.head-title{
+.head-title
+{
 	font-family: 'Neucha', cursive;
-	color: #06373E;
-	font-size: 55px;
-	text-shadow: 3px 3px 0px rgba(0,0,0,0.3);
+	color: white;
+	font-size: 70px;
+    text-shadow: 5px 5px 2px rgba(15, 48, 202,0.7);
 }
 
-.back{
-	background-color: #1E1E1E;
+.back
+{
+	background-image: url(../discography/image/original1.jpg);
 }
 
-.discography{
+.discography
+{
 	text-align: center;
-	background: linear-gradient(to top, #BBDB9B, #8bf4c8);
+	background: linear-gradient(to top, rgba(64, 100, 139, 0.95), #4d57ea);
 	height: 100px;
 	padding: 10px;
-	border-radius: 20px 20px 0px 0px;
 	color: white;
 }
 
-.column{
-	background: linear-gradient(to bottom, #BBDB9B, #1E1E1E);
-	min-height: 85%;
-	max-height: 100%;
-}
-
-.music{
-	color: #06373E;
-	background-color: #BBDB9B;
+.music
+{
+	color: white;
+    text-shadow: -3px 0px 0px #0f30ca;
+	background-color: rgba(64, 100, 139, 0.95);
 	min-height: 85%;
 	min-width: 100%;
 	position: relative;
-	border-radius: 0px 0px 200px 200px;
+	text-align: center;
+	border-radius: 0px 0px 100px 100px;
 }
 
-.text{
-	padding-left: 100px;
-	text-shadow: 2px 2px 0px rgba(0,0,0,0.2);
+.text
+{
+	padding-bottom: 200px;
 }
 
-.musician{
-	font-size: 35px;
+.musician
+{
+	font-size: 50px;
 	font-family: 'Sedgwick Ave Display', cursive;
 }
 
-.album{
+.album
+{
 	font-size: 30px;
 	font-family: 'Dosis', sans-serif;
 	text-indent: 30px;
 }
 
-.song{	
+.song
+{
 	font-size: 20px;
 	font-family: 'Quicksand', sans-serif;
 	text-indent:65px;
 }
 
-.image{
+.image
+{
 	width:100%;
+}
+
+.background-musicians
+{
+	background-image: url(../discography/image/background-musicians.pg);
+}
+
+.center-column
+{
+	background-color: rgba(43, 15, 96, 0.7);
+	border-radius: 15px;
+	border-style: solid;
+	border-color: #513487;
+	border-width: 3px;
+	margin: 15px;
+	color: #bab8bc;
+	font-size: 30px;
+	font-family: 'Indie Flower', cursive; 
+}
+
+.links
+{
+	transition: all 1s ease;
+}
+
+.links:hover{
+	color:#49eff4;
+	font-size: 33px;
+}
+
+.head-genre
+{
+	text-align: center;
+	font-size: 45px;
+}
+
+.head-musician
+{
+	text-align: center; 
+	font-size: 55px;
 }

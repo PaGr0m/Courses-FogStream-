@@ -1,0 +1,28 @@
+{% extends "discography/base.html" %}
+
+{% block title %}
+    <title>List of musicians</title>
+{% endblock %}
+
+{% block content %}
+	<div class="row">
+		<div class="col-sm-4"></div>
+	
+		<div class="col-sm-4 center-column">
+			<form action="" method="get">
+		    	{{form}}
+		    	<input class="btn btn-primary" type="submit" value="Click on me" />
+			</form>
+
+		    {% for musician in musicians %}
+		    <li>
+		        <a href="{% url 'arg_musician' musician %}" class="links">
+		            {{musician}}
+		        </a>
+		    </li>
+	    	{% endfor %}
+		</div>
+
+		<div class="col-sm-4"></div>
+	</div>
+{% endblock %}
