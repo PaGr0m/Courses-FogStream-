@@ -10,14 +10,14 @@
 	
 		<div class="col-sm-4 center-column">
 			<form action="" method="get">
-		    	{{form}}
+		    	{{ form }}
 		    	<input class="btn btn-primary" type="submit" value="Click on me" />
 			</form>
 
 		    {% for musician in musicians %}
 		    <li>
 		        <a href="{% url 'arg_musician' musician %}" class="links">
-		            {{musician}}
+		            {{ musician }}
 		        </a>
 		    </li>
 	    	{% endfor %}

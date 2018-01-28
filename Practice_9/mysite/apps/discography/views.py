@@ -52,7 +52,7 @@ def get_songs_by_musician(request, arg_musician):
                    "songs" : musician.musician_songs.all().order_by("name")}
 
     return render(request,
-                  "discography/musicians__<str:musician_name>.html",
+                  "discography/songs_by_musician.html",
                   output_data)
 
 
@@ -66,5 +66,5 @@ def get_songs_by_genre(request, arg_genre):
                    "songs" : genre.genre_songs.all().order_by("name")}
 
     return render(request,
-                  "discography/genres__<str:genre_name>.html",
+                  "discography/songs_by_genre.html",
                   output_data)

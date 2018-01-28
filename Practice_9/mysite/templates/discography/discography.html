@@ -36,10 +36,10 @@
 
                         {% regroup other by album as album_list %}
                         {% for album in album_list %}
-                            <ul class="album">{{album.grouper}}</ul>
+                            <ul class="album">{{ album.grouper }}</ul>
 
                             {% for song in album.list %}
-                                 <ul class="song">⏺ {{song.song}}</ul>
+                                 <ul class="song">⏺ {{ song.song }}</ul>
                             {% endfor %}
                         {% endfor %}
                     {% endfor %}

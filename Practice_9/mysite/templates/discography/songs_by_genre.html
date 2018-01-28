@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 
 {% block title %}
-    <title>{{genre}}</title>
+    <title>{{ genre }}</title>
 {% endblock %}
 
 {% block content %}
@@ -9,13 +9,13 @@
 	<div class="col-sm-4"></div>
 	<div class="col-sm-4 center-column">
 		<p class="head-genre">
-		    {{genre}}
+		    {{ genre }}
 		</p>
 		
 		<div>
 		    {% for song in songs %}
 		    <li>
-		        {{song.name}}
+		        {{ song.name }}
 		    </li>
 		    {% endfor %}
 		</div>
